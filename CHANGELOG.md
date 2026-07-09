@@ -163,7 +163,7 @@ Responded to 7 recent Google reviews via GBP (all from the last ~7 weeks): Malas
 
 Built the QR review tool to attack the #1 SEO lever (reviews 58 vs 141–611). Flow: scan QR → rate → 4–5★ get a **unique, human-sounding, keyword-light** ready-to-paste review; 1–3★ route to a private WhatsApp to the owner (rating protection). **Each review is retired ("burned") after copy so no two customers ever post the same text** — the anti-duplicate mechanism Google's spam filter needs.
 - **Stack:** static front-end (`review/index.html`, self-contained) + PHP/MySQL backend (`review/api/`: `next.php` atomic serve-and-mark, `copied.php` burn-on-copy, `stats.php` pool health, `setup.php` one-time seeder, `db.example.php` creds template — real `db.php` is gitignored). Abandoned-but-not-copied reviews auto-recycle after 30 min; "suggest another" releases the skipped one.
-- **Review bank:** ~100 natural, varied, non-AI-sounding reviews in `seed_reviews.txt` (75×5★, 25×4★) — extensible by adding lines + re-running setup.
+- **Review bank:** ~250 natural, varied, non-AI-sounding reviews in `seed_reviews.txt` (189×5★, 60×4★, 0 exact dupes) — extensible by adding lines + re-running setup.
 - **QR:** `review/qr/trishika-review-qr.{svg,png}` → `https://trishikacarrentalhubli.in/review/`.
 - Verified front-end in preview (star screen, positive path, negative→WhatsApp path). Deploy steps in `review/README.md`. Not yet deployed (needs Hostinger MySQL + upload).
 
