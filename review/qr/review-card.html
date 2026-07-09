@@ -1,0 +1,163 @@
+<meta charset="utf-8">
+<title>Trishika — Review QR card</title>
+<style>
+  :root{
+    --navy:#0f2b46; --navy2:#16406a; --gold:#f4b32c; --ink:#1c2b39;
+    --muted:#6b7a89; --line:#e6ebf0; --paper:#ffffff;
+    /* theme-aware page chrome (not the card) */
+    --page-bg:#eef2f7; --page-fg:#1c2b39; --page-muted:#5a6b7b;
+    --page-card:#ffffff; --page-line:#dbe3ec; --page-accent:#16406a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --page-bg:#0c141d; --page-fg:#e7edf3; --page-muted:#93a4b5;
+      --page-card:#131f2b; --page-line:#243444; --page-accent:#f4b32c;
+    }
+  }
+  :root[data-theme="light"]{
+    --page-bg:#eef2f7; --page-fg:#1c2b39; --page-muted:#5a6b7b;
+    --page-card:#ffffff; --page-line:#dbe3ec; --page-accent:#16406a;
+  }
+  :root[data-theme="dark"]{
+    --page-bg:#0c141d; --page-fg:#e7edf3; --page-muted:#93a4b5;
+    --page-card:#131f2b; --page-line:#243444; --page-accent:#f4b32c;
+  }
+
+  *{box-sizing:border-box}
+  body{margin:0}
+  .wrap{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:var(--page-bg); color:var(--page-fg);
+    min-height:100vh; padding:36px 20px 64px;
+    display:flex; flex-direction:column; align-items:center; gap:22px;
+  }
+  .head{max-width:560px; text-align:center; display:flex; flex-direction:column; gap:10px}
+  .eyebrow{
+    font-size:.72rem; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--page-accent); font-weight:700;
+  }
+  .head h1{margin:0; font-size:1.55rem; font-weight:800; text-wrap:balance; letter-spacing:-.01em}
+  .head p{margin:0; color:var(--page-muted); font-size:.95rem; line-height:1.55}
+  .toolbar{display:flex; gap:12px; align-items:center; flex-wrap:wrap; justify-content:center}
+  .btn{
+    border:0; cursor:pointer; font:inherit; font-weight:700; font-size:.95rem;
+    padding:12px 20px; border-radius:11px; background:var(--navy); color:#fff;
+    display:inline-flex; align-items:center; gap:8px;
+  }
+  .btn:hover{background:var(--navy2)}
+  .btn:focus-visible{outline:3px solid var(--gold); outline-offset:2px}
+  .tip{color:var(--page-muted); font-size:.82rem}
+
+  /* ---------- the card (fixed brand world, same in both themes) ---------- */
+  .card{
+    width:105mm; height:148mm; background:var(--paper); color:var(--ink);
+    border-radius:6mm; overflow:hidden;
+    display:flex; flex-direction:column;
+    box-shadow:0 18px 50px rgba(15,43,70,.28);
+    border:1px solid var(--line);
+  }
+  .card .top{
+    background:linear-gradient(140deg,var(--navy),var(--navy2));
+    color:#fff; text-align:center; padding:8mm 6mm 7mm;
+  }
+  .brand{font-weight:800; font-size:6.2mm; letter-spacing:.02em; line-height:1}
+  .brand span{color:var(--gold)}
+  .brand-sub{
+    margin-top:2.4mm; font-size:2.7mm; letter-spacing:.22em;
+    text-transform:uppercase; color:#cfe0f2;
+  }
+  .card .body{
+    flex:1; padding:6mm 6mm 4mm; text-align:center;
+    display:flex; flex-direction:column; align-items:center;
+  }
+  .ask{font-size:5.4mm; font-weight:800; margin:0; letter-spacing:-.01em}
+  .stars{color:var(--gold); font-size:6.6mm; letter-spacing:1.4mm; margin:2.4mm 0 0; line-height:1}
+  .qr-panel{
+    margin:4mm auto 0; width:52mm; height:52mm; padding:3mm;
+    background:#fff; border:1px solid var(--line); border-radius:4mm;
+  }
+  .qr-panel svg{width:100%; height:100%; display:block}
+  .steps{
+    margin:4mm 0 0; font-size:3.1mm; color:var(--ink); line-height:1.5;
+    display:flex; align-items:center; gap:2mm; justify-content:center; flex-wrap:wrap;
+  }
+  .steps b{color:var(--navy2)}
+  .url{margin:2.2mm 0 0; font-size:2.8mm; color:var(--muted); letter-spacing:.01em}
+  .card .foot{
+    background:var(--navy); color:#fff;
+    padding:3.6mm 6mm; display:flex; justify-content:space-between; align-items:center;
+    font-size:3mm;
+  }
+  .card .foot .g{color:var(--gold); font-weight:700}
+
+  /* ---------- print: 4 cards on one A4, cut on the guides ---------- */
+  .sheet{display:none}
+  @media print{
+    @page{ size:A4; margin:8mm; }
+    .wrap{display:none !important}
+    .sheet{
+      display:grid; grid-template-columns:repeat(2,105mm); grid-template-rows:repeat(2,148mm);
+      justify-content:center; align-content:center; gap:0;
+    }
+    .sheet .card{
+      box-shadow:none; border:1px dashed #b9c4d0; border-radius:0;
+    }
+  }
+</style>
+
+<!-- QR defined once, reused by every card -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="qr" viewBox="0 0 540 540">
+    <g transform="scale(12)">
+      <path fill="#fff" d="M0 0h45v45h-45z"/>
+      <path stroke="#0f2b46" d="M4 4.5h7m2 0h3m1 0h2m3 0h1m2 0h1m2 0h1m5 0h7m-37 1h1m5 0h1m3 0h2m3 0h1m1 0h1m2 0h1m1 0h4m2 0h1m1 0h1m5 0h1m-37 1h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h1m2 0h2m3 0h1m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1m-37 1h1m1 0h3m1 0h1m1 0h1m7 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m1 0h1m1 0h3m1 0h1m-37 1h1m1 0h3m1 0h1m2 0h1m4 0h8m2 0h3m3 0h1m1 0h3m1 0h1m-37 1h1m5 0h1m2 0h4m2 0h1m1 0h2m2 0h6m3 0h1m5 0h1m-37 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-25 1h1m2 0h1m6 0h1m1 0h2m1 0h2m-26 1h2m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2m2 0h1m4 0h2m-35 1h1m1 0h1m1 0h2m2 0h2m3 0h1m2 0h1m4 0h2m1 0h5m2 0h3m1 0h1m-32 1h1m1 0h2m2 0h1m1 0h3m3 0h1m2 0h2m2 0h1m1 0h4m3 0h1m1 0h1m-37 1h2m1 0h1m1 0h1m1 0h2m1 0h2m3 0h1m1 0h1m1 0h1m1 0h1m2 0h1m1 0h2m1 0h3m1 0h3m-34 1h1m2 0h4m2 0h1m2 0h4m1 0h1m2 0h1m1 0h1m2 0h2m1 0h2m-30 1h3m2 0h3m1 0h4m1 0h2m2 0h1m3 0h2m1 0h3m2 0h1m1 0h2m-35 1h4m1 0h2m3 0h1m1 0h1m1 0h1m2 0h1m1 0h1m2 0h2m2 0h2m2 0h1m1 0h4m-37 1h4m1 0h1m2 0h2m1 0h2m1 0h1m5 0h3m1 0h1m1 0h4m1 0h1m1 0h4m-37 1h1m2 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m2 0h1m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m3 0h2m-33 1h1m4 0h1m1 0h1m3 0h2m2 0h1m1 0h2m2 0h4m1 0h1m1 0h1m2 0h2m-36 1h1m1 0h1m3 0h3m2 0h1m1 0h1m1 0h2m1 0h1m2 0h1m3 0h3m1 0h1m2 0h1m3 0h1m-34 1h3m1 0h1m2 0h1m2 0h1m2 0h1m1 0h5m2 0h1m1 0h1m2 0h2m1 0h1m1 0h2m-37 1h2m2 0h3m2 0h5m1 0h1m1 0h5m2 0h1m2 0h4m1 0h2m-32 1h3m3 0h3m1 0h2m5 0h1m1 0h4m1 0h4m1 0h4m-34 1h1m1 0h1m1 0h3m1 0h3m5 0h2m1 0h2m2 0h1m1 0h2m1 0h1m2 0h2m1 0h2m-34 1h1m5 0h1m2 0h4m8 0h1m2 0h2m1 0h2m1 0h3m-36 1h2m1 0h1m1 0h3m1 0h2m6 0h1m1 0h2m4 0h2m3 0h1m2 0h1m-34 1h1m2 0h1m4 0h2m1 0h1m1 0h2m4 0h1m1 0h2m1 0h5m3 0h1m-33 1h3m1 0h5m1 0h4m6 0h2m3 0h3m2 0h1m2 0h1m1 0h2m-37 1h1m1 0h1m1 0h2m2 0h1m2 0h1m4 0h2m1 0h1m1 0h2m1 0h1m1 0h1m2 0h1m1 0h6m-37 1h1m1 0h2m1 0h3m3 0h2m1 0h1m3 0h2m3 0h3m1 0h8m1 0h1m-29 1h1m6 0h1m2 0h1m2 0h1m4 0h1m1 0h1m3 0h4m-36 1h7m1 0h1m2 0h1m1 0h1m1 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h1m1 0h1m1 0h3m1 0h1m-37 1h1m5 0h1m2 0h2m2 0h1m1 0h7m2 0h5m3 0h2m-34 1h1m1 0h3m1 0h1m1 0h4m1 0h1m2 0h3m3 0h3m1 0h7m3 0h1m-37 1h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h3m7 0h4m1 0h1m-31 1h1m1 0h3m1 0h1m2 0h1m5 0h3m1 0h1m2 0h1m1 0h2m5 0h3m1 0h2m-37 1h1m5 0h1m2 0h2m1 0h1m1 0h2m5 0h2m6 0h3m1 0h4m-37 1h7m2 0h3m1 0h1m1 0h1m1 0h1m2 0h1m1 0h1m1 0h1m3 0h1m1 0h4m2 0h1"/>
+    </g>
+  </symbol>
+</svg>
+
+<!-- template card -->
+<template id="cardtpl">
+  <div class="card">
+    <div class="top">
+      <div class="brand">TRISHIKA <span>Car Rental</span></div>
+      <div class="brand-sub">Hubballi · Dharwad</div>
+    </div>
+    <div class="body">
+      <p class="ask">How was your ride?</p>
+      <div class="stars" aria-label="five stars">★ ★ ★ ★ ★</div>
+      <div class="qr-panel"><svg role="img" aria-label="Scan to rate your ride"><use href="#qr"/></svg></div>
+      <div class="steps"><b>Scan</b> · tap the stars · <b>done in 10 sec</b></div>
+      <div class="url">trishikacarrentalhubli.in/review</div>
+    </div>
+    <div class="foot">
+      <span class="g">★ Rate us on Google</span>
+      <span>+91 82175 77849</span>
+    </div>
+  </div>
+</template>
+
+<!-- screen view -->
+<div class="wrap">
+  <div class="head">
+    <div class="eyebrow">Review collection</div>
+    <h1>Trishika review card</h1>
+    <p>Hand it out at drop-off or slip it in the seat-back pocket. The customer scans, taps the stars, and posts —
+       10 seconds. Print on card stock; you get <b>4 cards per A4</b> sheet, cut on the dashed lines.</p>
+  </div>
+  <div class="toolbar">
+    <button class="btn" id="printBtn" type="button">🖨 Print cards (4 per A4)</button>
+  </div>
+  <div class="tip">Tip: in the print dialog set Margins → Default and Scale → 100% so the QR stays crisp.</div>
+  <div id="preview"></div>
+</div>
+
+<!-- print sheet (2×2) -->
+<div class="sheet" id="sheet" aria-hidden="true"></div>
+
+<script>
+  var tpl = document.getElementById('cardtpl').content;
+  document.getElementById('preview').appendChild(tpl.cloneNode(true));
+  var sheet = document.getElementById('sheet');
+  for (var i = 0; i < 4; i++) sheet.appendChild(tpl.cloneNode(true));
+  document.getElementById('printBtn').addEventListener('click', function(){ window.print(); });
+</script>
