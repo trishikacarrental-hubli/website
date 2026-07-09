@@ -159,6 +159,14 @@ Preview-verified mobile+desktop (rating renders, H1 rental-first, Vehicle/Date r
 
 Responded to 7 recent Google reviews via GBP (all from the last ~7 weeks): Malashree Durgannavar, Praveen Kulkarni, Shivu Bannur, Abhi Vibhutimath, Am M, vikram adaki, Taslima Masanakatti — personalized 5★ thank-yous (referenced driver Vikram where reviewers named him). Owner-response rate on recent reviews now 100%. Older reviews (13+ weeks) still unreplied — for the ongoing routine. Note: GBP review UI is flaky under automation (renderer freezes, window resizes, stray tabs on mis-clicks) — verify each post by reload.
 
+## 2026-07-09 — Review funnel built (`/review/`)
+
+Built the QR review tool to attack the #1 SEO lever (reviews 58 vs 141–611). Flow: scan QR → rate → 4–5★ get a **unique, human-sounding, keyword-light** ready-to-paste review; 1–3★ route to a private WhatsApp to the owner (rating protection). **Each review is retired ("burned") after copy so no two customers ever post the same text** — the anti-duplicate mechanism Google's spam filter needs.
+- **Stack:** static front-end (`review/index.html`, self-contained) + PHP/MySQL backend (`review/api/`: `next.php` atomic serve-and-mark, `copied.php` burn-on-copy, `stats.php` pool health, `setup.php` one-time seeder, `db.example.php` creds template — real `db.php` is gitignored). Abandoned-but-not-copied reviews auto-recycle after 30 min; "suggest another" releases the skipped one.
+- **Review bank:** ~100 natural, varied, non-AI-sounding reviews in `seed_reviews.txt` (75×5★, 25×4★) — extensible by adding lines + re-running setup.
+- **QR:** `review/qr/trishika-review-qr.{svg,png}` → `https://trishikacarrentalhubli.in/review/`.
+- Verified front-end in preview (star screen, positive path, negative→WhatsApp path). Deploy steps in `review/README.md`. Not yet deployed (needs Hostinger MySQL + upload).
+
 ## 2026-07-09 — GBP service descriptions + new Ads campaign draft + HANDOFF/git
 
 - **GBP:** added service descriptions to the primary-category services (Airport Taxi, Car Rental with Driver, Outstation Cabs, Tempo Traveller, Wedding & Event Transport, + Railway/Corporate/One-Way guided to Sayed) and drafted 5 flagship services under the 5 secondary categories (copy in this changelog's session / `gbp/services.csv`). Designed a 3×/week post batch (Jul 10–31) with Gemini poster prompts + compliant captions. **Learned:** GBP rejects posts containing a phone number in text/image — keep the number in the Call button only. Q&A seeding parked (owner can't self-ask; needs 2nd account).

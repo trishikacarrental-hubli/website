@@ -1,0 +1,110 @@
+# Trishika review bank. Format:  stars|review text   (stars = 5 or 4)
+# Lines starting with # are ignored. Add more lines anytime and re-run setup.php to top up the pool.
+# Written to sound like real short Hubli cab reviews - vary them, don't make them polished.
+
+# ---------- 5 star ----------
+5|good service and on time. driver was polite, car was clean. recommended for hubli 👍
+5|Booked a cab for airport drop, came on time. reasonable price, no hidden charges. thank you
+5|Best cabs in hubli. took car to goa and driver drove safely on the ghat road. will book again
+5|Nice experience. clean ac car and the driver knew the route well.
+5|called last minute and they arranged a car quickly. fair charges. satisfied 🙏
+5|very good taxi service in hubli. comfortable ride and on time pickup. reasonable rate
+5|Reliable people. used for outstation trip, no issues. car was neat and driver experienced
+5|simple and honest pricing, no toll surprises. good cab service. 5 stars
+5|Driver was very polite and helpful with luggage. clean car. happy with the service
+5|Took their car for a wedding in dharwad. on time and well maintained. thank you trishika
+5|good and safe driving. reached airport well before time. recommended
+5|Booked for hubli to bangalore drop. smooth trip, driver was calm and experienced. worth it
+5|neat car, polite driver, fair price. what more do you need
+5|Very responsive on whatsapp. car came on time and the ride was comfortable
+5|used many times now for local trips in hubli. always on time and clean cars
+5|hubli to gokarna day trip was well planned. driver knew all the spots. good service
+5|honest and reliable. no extra charges at the end. will use again for sure
+5|Excellent service. the driver was punctual and drove very safely. clean vehicle too
+5|good cab service in hubballi. booked in the morning and car was ready in 20 min
+5|Comfortable innova for our family trip. driver was patient with the kids. thank you
+5|took a taxi to the airport early morning, driver was already waiting. no delay
+5|fair rates and clean cars. office is easy to reach on gokul road. recommended
+5|Very professional. sent the car details on whatsapp before pickup. felt safe
+5|driver drove carefully in the rain on the way to dandeli. good experience 👍
+5|Best car rental in hubli for outstation. transparent bill with toll receipts
+5|quick response and polite staff. car was clean and on time. satisfied customer
+5|Did a hubli belgaum same day trip for a hospital visit. cab waited patiently. thank you
+5|good service, reasonable price, safe driver. nothing to complain
+5|booked tempo traveller for a group of 12 to goa. comfortable and one bill for all
+5|Reliable taxi service. i use them for all my airport runs now. never late
+5|clean car and courteous driver. the fare was exactly what they told me. honest people
+5|Very happy with the trip. driver was friendly and knew the shortcuts to avoid traffic
+5|hubli to hampi trip was smooth. good ac car and experienced driver. recommended
+5|prompt service even at night. car came quickly and the driver was polite 🙏
+5|Used for a business meeting in belgaum. professional driver, on time both ways
+5|neat and clean cars every time. staff is polite on call. good local cab service
+5|Booked for railway station pickup, driver was waiting at the exit. helpful with bags
+5|safe and comfortable ride to goa. no rash driving. will definitely book again
+5|good rates compared to others in hubli. and the car was in good condition
+5|Driver was very experienced on the ghat roads. reached gokarna safely. thank you
+5|simple booking on whatsapp and the car was on time. clean and comfortable
+5|Very good service for outstation. honest billing and a polite driver. recommended to all
+5|took their sedan for city use the whole day. driver was patient and helpful
+5|clean car polite driver fair price. reliable cab service in hubballi dharwad
+5|Airport pickup was smooth. driver tracked my flight and was there when i landed
+5|good experience overall. car was neat, driver was calm and the price was fair
+5|Booked innova crysta for a family function. spotless car and on time. thank you trishika
+5|reliable and punctual. i have used them a few times and never had a problem
+5|Nice cab service. the driver helped my parents get in and out comfortably
+5|honest pricing no last minute charges. safe driving. recommended for hubli
+5|Trip to murudeshwar was well organised. good ac car and a helpful driver
+5|quick and reliable. called and got a car within half an hour. clean vehicle
+5|Very polite driver and clean car. the whole trip was comfortable. thank you
+5|good service for airport drop. on time and reasonable. no complaints 👍
+5|used for a day trip to dandeli. driver waited during our rafting. very helpful
+5|clean cars and fair prices. best taxi in hubli for outstation trips
+5|Driver was punctual and drove safely with my elderly parents. much appreciated
+5|smooth booking and on time pickup. car was comfortable for the long drive to bangalore
+5|Reasonable rate and a neat car. driver knew the routes well. good service
+5|happy with the service. they were honest about the fare from the start
+5|Booked a cab to goa for the long weekend. good car, safe driver, fair price
+5|reliable people, always pick up on time. clean cars. recommended in hubli
+5|Very good driver, calm and experienced. reached the airport with time to spare
+5|used their mini bus for a pilgrimage trip. comfortable for the whole group. thank you
+5|good local taxi service. clean car came on time and the driver was polite 🙏
+5|honest and reliable cab service in hubballi. no hidden charges at all
+5|Nice comfortable ride to belgaum. driver was professional and on time
+5|quick response on call. car was clean and the fare was fair. satisfied
+5|Took a car rental for a full day in hubli. driver was patient at every stop
+5|safe driving and clean vehicle. i felt comfortable travelling alone at night
+5|good service, on time, fair price. will use them again for my next trip
+5|Driver was friendly and helpful throughout the goa trip. well maintained car
+5|reliable for airport transfers. never been late once. clean cars. recommended
+5|Booked them for a wedding, they managed all the guest pickups smoothly. thank you
+5|simple honest people. the price they quote is the price you pay. good cab service
+5|used for outstation twice this year. both times clean car and safe driving
+5|Polite on the phone and the driver was polite too. comfortable trip. thanks
+5|good ac sedan for hubli to bangalore. driver took proper breaks. comfortable journey
+
+# ---------- 4 star ----------
+4|good service overall. car was clean and driver polite. reached on time
+4|Reliable cab for the airport. small delay in booking but the ride was comfortable
+4|decent service. fair price and a neat car. driver was helpful
+4|Good outstation trip to goa. car was comfortable, would use again
+4|on time and reasonable. car was clean, driver drove safely. satisfied
+4|good local taxi in hubli. booking was easy and the fare was fair
+4|Comfortable ride to bangalore. driver was experienced. overall good service
+4|nice service. car came on time and the driver was polite. reasonable rate
+4|Used for a day trip, driver waited patiently. car was neat. good
+4|decent cab service. price was fair and the ride comfortable. recommended
+4|Good airport pickup. driver was on time and helpful with the luggage
+4|reliable for local trips. clean car and polite driver. fair charges
+4|Booked for a dharwad trip. on time and reasonable price. satisfied
+4|good experience. the car was comfortable and the driver drove carefully
+4|decent and honest pricing. no major issues. would book again
+4|Nice cab, on time pickup and safe driving. reasonable fare
+4|good service for outstation. car was clean and driver knew the route
+4|reliable people, car came on time. comfortable ride to belgaum
+4|Fair price and a neat car. driver was polite. good local service in hubli
+4|used for a family trip. comfortable innova and a patient driver
+4|Decent taxi service. on time and reasonable. driver was helpful
+4|good and safe ride to gokarna. car was comfortable. satisfied
+4|reliable cab for the airport. on time and fair price. would recommend
+4|Nice service, polite driver and clean car. reasonable rate overall
+4|good outstation cab. honest fare and a comfortable well kept car

@@ -22,3 +22,6 @@ venv/
 # Logs / temp
 *.log
 tmp/
+
+# Review tool: live DB credentials (create from db.example.php on the server)
+review/api/db.php

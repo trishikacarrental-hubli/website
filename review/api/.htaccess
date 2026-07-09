@@ -1,0 +1,10 @@
+# Block direct download of the seed list and config files in this folder.
+<FilesMatch "\.(txt|md|sql)$">
+  Require all denied
+</FilesMatch>
+<Files "db.php">
+  Require all denied
+</Files>
+<Files "db.example.php">
+  Require all denied
+</Files>
