@@ -1,0 +1,10 @@
+# Always serve the freshest review page. It's tiny and each customer loads it once,
+# so "revalidate every time" costs almost nothing but makes updates roll out instantly
+# (overrides the server default of Cache-Control: max-age=86400 for HTML).
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate, max-age=0"
+    Header unset Expires
+    Header unset Pragma
+  </FilesMatch>
+</IfModule>
