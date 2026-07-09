@@ -22,12 +22,14 @@
   html,body{margin:0}
   body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
     background:var(--bg);color:var(--ink);line-height:1.5;min-height:100vh}
+  body.has-dock{padding-bottom:84px}
   .wrap{max-width:520px;margin:0 auto;padding:0 18px 40px}
   header{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;
     padding:26px 18px 22px;text-align:center;border-radius:0 0 22px 22px}
   header .brand{font-weight:800;letter-spacing:.3px;font-size:1.15rem}
   header .brand span{color:var(--gold)}
   header .sub{opacity:.85;font-size:.85rem;margin-top:3px}
+  header .welcome{opacity:.9;font-size:.9rem;margin-top:10px;line-height:1.5}
   .card{background:#fff;border:1px solid var(--line);border-radius:18px;
     padding:22px;margin-top:18px;box-shadow:0 6px 24px rgba(15,43,70,.06)}
   h1{font-size:1.35rem;margin:.2em 0 .1em;text-align:center}
@@ -38,6 +40,7 @@
   .star.on{color:var(--gold)}
   .star:active{transform:scale(.9)}
   .hint{text-align:center;color:var(--muted);font-size:.82rem;margin-top:2px}
+  .intro{color:var(--muted);text-align:center;font-size:.9rem;line-height:1.55;margin:14px 0 0}
   .hidden{display:none!important}
   textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:14px;
     font-size:1.02rem;font-family:inherit;line-height:1.55;color:var(--ink);
@@ -48,28 +51,62 @@
     font-weight:700;cursor:pointer;text-align:center;text-decoration:none;display:block}
   .btn-primary{background:var(--gold);color:#3a2a00}
   .btn-navy{background:var(--navy);color:#fff}
-  .btn-ghost{background:#eef3f8;color:var(--navy)}
   .btn:active{filter:brightness(.96)}
   .btn[disabled]{opacity:.5;pointer-events:none}
+
+  /* review list */
+  .rev-list{display:flex;flex-direction:column;gap:12px;margin-top:14px}
+  .rev{border:1px solid var(--line);border-radius:14px;padding:14px;background:#fbfdff;
+    display:flex;flex-direction:column;gap:11px;transition:border-color .15s,background .15s}
+  .rev.copied{border-color:var(--ok);background:#f1fbf5}
+  .rev-text{margin:0;font-size:1.0rem;line-height:1.55;color:var(--ink)}
+  .rev-copy{align-self:flex-start;border:0;border-radius:10px;padding:9px 20px;
+    font-weight:700;font-size:.92rem;cursor:pointer;background:var(--gold);color:#3a2a00}
+  .rev-copy:active{filter:brightness(.96)}
+  .rev.copied .rev-copy{background:var(--ok);color:#fff}
+  .rev-copy[disabled]{cursor:default}
+  .moreBtn{margin:16px auto 0;display:block;background:#eef3f8;color:var(--navy);border:0;
+    border-radius:12px;padding:12px 18px;font-weight:700;cursor:pointer;font-size:.95rem}
+  .moreBtn[disabled]{opacity:.6;cursor:default}
+
   .another{display:inline-block;margin-top:14px;color:var(--navy2);font-weight:600;
     font-size:.92rem;text-decoration:none;border-bottom:1px dashed var(--navy2);cursor:pointer}
   .steps{text-align:center;color:var(--muted);font-size:.85rem;margin-top:16px}
   .steps b{color:var(--ink)}
-  .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(20px);
+  .toast{position:fixed;left:50%;bottom:96px;transform:translateX(-50%) translateY(20px);
     background:var(--ink);color:#fff;padding:11px 18px;border-radius:999px;font-size:.9rem;
-    opacity:0;transition:.25s;pointer-events:none;z-index:9}
+    opacity:0;transition:.25s;pointer-events:none;z-index:12;max-width:88%;text-align:center}
   .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
   .spin{width:26px;height:26px;border:3px solid var(--line);border-top-color:var(--navy2);
     border-radius:50%;animation:sp 1s linear infinite;margin:22px auto}
+  @media (prefers-reduced-motion:reduce){.spin{animation:none}}
   @keyframes sp{to{transform:rotate(360deg)}}
-  .foot{text-align:center;color:var(--muted);font-size:.78rem;margin-top:22px}
   .emoji{font-size:2.4rem;display:block;text-align:center;margin-bottom:4px}
+
+  /* sticky dock for the Google button after copying */
+  .dock{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);
+    padding:12px 18px calc(12px + env(safe-area-inset-bottom));z-index:10;
+    box-shadow:0 -6px 24px rgba(15,43,70,.10)}
+  .dock .btn{max-width:484px;margin:0 auto}
+
+  /* contact / re-book footer */
+  .contact{margin-top:22px;text-align:center}
+  .contact h2{font-size:1.02rem;margin:0 0 12px}
+  .contact-row{display:flex;gap:10px}
+  .cbtn{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;
+    border:1px solid var(--line);border-radius:12px;padding:12px 6px;text-decoration:none;
+    color:var(--navy);font-weight:600;font-size:.85rem;background:#fbfdff}
+  .cbtn .ci{font-size:1.3rem;line-height:1}
+  .cbtn:active{filter:brightness(.97)}
+  .contact-sub{color:var(--muted);font-size:.8rem;margin-top:12px;line-height:1.5}
+  .foot{text-align:center;color:var(--muted);font-size:.78rem;margin-top:18px}
 </style>
 </head>
 <body>
 <header>
   <div class="brand">TRISHIKA <span>Car Rental</span></div>
   <div class="sub">Hubballi &middot; Dharwad</div>
+  <div class="welcome">Thanks for riding with us today 🙏</div>
 </header>
 
 <div class="wrap">
@@ -86,27 +123,27 @@
       <span class="star" data-v="5">&#9733;</span>
     </div>
     <div class="hint">It only takes a few seconds</div>
+    <p class="intro">We're a local, driver-run cab service in Hubballi &amp; Dharwad.
+      Your quick rating helps more riders find us — thank you for the support.</p>
   </section>
 
   <!-- loading -->
   <section id="loading" class="card hidden">
     <div class="spin"></div>
-    <p class="lead">Getting a review ready&hellip;</p>
+    <p class="lead">Getting some reviews ready&hellip;</p>
   </section>
 
-  <!-- STEP 2a: positive (4-5) -->
+  <!-- STEP 2a: positive (4-5) — list of reviews -->
   <section id="positive" class="card hidden">
     <span class="emoji">&#127881;</span>
     <h1>Thanks a ton!</h1>
-    <p class="lead">Here's a review you can post. Edit it to sound like you, then copy.</p>
-    <textarea id="reviewText" spellcheck="false"></textarea>
-    <span class="another" id="another">&#8635; Suggest another</span>
-    <div class="row">
-      <button class="btn btn-primary" id="copyBtn">Copy review</button>
-    </div>
-    <a class="btn btn-navy hidden" id="goBtn" style="margin-top:10px" target="_blank" rel="noopener">Paste in Google &rarr;</a>
+    <p class="lead">Pick a review that fits your trip and tap <b>Copy</b> — then paste it in Google.
+      Each review is used only once, so yours stays unique.</p>
+    <div class="rev-list" id="revList"></div>
+    <button class="moreBtn" id="moreBtn" type="button">Show more reviews</button>
     <div class="steps" id="steps">
       <b>1.</b> Copy &nbsp; <b>2.</b> Tap "Paste in Google" &nbsp; <b>3.</b> Long-press &rarr; Paste &rarr; Post
+      <br>You can tweak the wording in Google before posting.
     </div>
   </section>
 
@@ -122,7 +159,23 @@
     <div class="steps">We read every message and make it right.</div>
   </section>
 
+  <!-- contact / re-book -->
+  <section class="contact card">
+    <h2>Need a ride again?</h2>
+    <div class="contact-row">
+      <a class="cbtn" href="tel:+918217577849"><span class="ci">📞</span>Call</a>
+      <a class="cbtn" href="https://wa.me/918217577849" target="_blank" rel="noopener"><span class="ci">💬</span>WhatsApp</a>
+      <a class="cbtn" href="https://trishikacarrentalhubli.in/" target="_blank" rel="noopener"><span class="ci">🌐</span>Website</a>
+    </div>
+    <div class="contact-sub">Local cabs · Airport transfers · Outstation trips · Tempo Traveller — across Hubballi &amp; Dharwad</div>
+  </section>
+
   <div class="foot">Trishika Car Rental &middot; +91 82175 77849</div>
+</div>
+
+<!-- sticky Google button, revealed after a copy -->
+<div class="dock hidden" id="dock">
+  <a class="btn btn-navy" id="goBtn" target="_blank" rel="noopener">Paste your review in Google &rarr;</a>
 </div>
 
 <div class="toast" id="toast"></div>
@@ -140,10 +193,16 @@ const $ = s => document.querySelector(s);
 const show = id => $('#'+id).classList.remove('hidden');
 const hide = id => $('#'+id).classList.add('hidden');
 function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');
-  clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),1800);}
+  clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),1900);}
 function track(name,params){try{if(window.gtag)gtag('event',name,params||{});}catch(e){}}
 
-let current = { id:0, stars:5 };
+let currentStars = 5;
+const shownIds = new Set();
+const FALLBACK = [
+  'good service and on time. driver was polite, car was clean. recommended for hubli',
+  'reliable cab service in hubballi. fair price and safe driving. thank you',
+  'clean car, courteous driver, reasonable fare. will book again'
+];
 
 /* ---------- stars ---------- */
 const starEls = [...document.querySelectorAll('.star')];
@@ -159,71 +218,110 @@ starEls.forEach(s=>{
 
 function chooseFlow(v){
   hide('rate');
-  if(v >= 4){ current.stars = v; loadReview(); }
+  if(v >= 4){ currentStars = v; loadList(); }
   else { openNegative(v); }
 }
 
-/* ---------- positive: fetch a unique review ---------- */
-async function loadReview(release){
+/* ---------- positive: fetch a list of unique reviews ---------- */
+async function loadList(){
   show('loading'); hide('positive');
+  let items = [];
   try{
-    let url = CFG.api+'next.php?stars='+current.stars;
-    if(release) url += '&release='+release;
-    const r = await fetch(url,{cache:'no-store'});
+    const r = await fetch(CFG.api+'list.php?stars='+currentStars+'&n=10',{cache:'no-store'});
     const d = await r.json();
-    current.id = d.id || 0;
-    $('#reviewText').value = d.body || '';
+    items = (d.items && d.items.length) ? d.items : (d.fallback||FALLBACK).map(b=>({id:0,body:b}));
   }catch(e){
-    $('#reviewText').value = 'Good service and on time. Clean car and polite driver. Recommended for hubli.';
-    current.id = 0;
+    items = FALLBACK.map(b=>({id:0,body:b}));
   }
   hide('loading'); show('positive');
-  // reset copy button state
-  const c=$('#copyBtn'); c.textContent='Copy review'; c.disabled=false;
-  $('#goBtn').classList.add('hidden');
+  renderList(items, true);
+  window.scrollTo({top:0,behavior:'smooth'});
 }
 
-$('#another').addEventListener('click',()=>{
-  track('suggest_another',{});
-  loadReview(current.id);   // release the one we're showing, get a new one
-});
+function renderList(items, replace){
+  const list = $('#revList');
+  if(replace){ list.innerHTML=''; shownIds.clear(); }
+  let added = 0;
+  items.forEach(it=>{
+    if(it.id && shownIds.has(it.id)) return;
+    if(it.id) shownIds.add(it.id);
+    const el = document.createElement('div');
+    el.className = 'rev';
+    const p = document.createElement('p');
+    p.className = 'rev-text';
+    p.textContent = it.body;
+    const btn = document.createElement('button');
+    btn.className = 'rev-copy'; btn.type = 'button'; btn.textContent = 'Copy';
+    btn.addEventListener('click', ()=> copyReview(it, el, btn));
+    el.appendChild(p); el.appendChild(btn);
+    list.appendChild(el);
+    added++;
+  });
+  return added;
+}
 
-$('#copyBtn').addEventListener('click', async ()=>{
-  const text = $('#reviewText').value.trim();
-  if(!text) return;
-  try{
-    await navigator.clipboard.writeText(text);
-  }catch(e){
-    const ta=$('#reviewText'); ta.focus(); ta.select();
-    document.execCommand('copy');
+function doCopy(text){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).catch(()=>fallbackCopy(text));
+  } else { fallbackCopy(text); }
+}
+function fallbackCopy(text){
+  const ta=document.createElement('textarea');
+  ta.value=text; ta.style.position='fixed'; ta.style.top='-1000px'; ta.style.opacity='0';
+  document.body.appendChild(ta); ta.focus(); ta.select();
+  try{document.execCommand('copy');}catch(e){}
+  document.body.removeChild(ta);
+}
+
+function copyReview(it, el, btn){
+  const text = (el.querySelector('.rev-text').textContent||'').trim();
+  if(!text || btn.disabled) return;
+  doCopy(text);                                   // sync — keep the user gesture
+  if(it.id){                                       // burn it so nobody else gets it
+    fetch(CFG.api+'copied.php',{method:'POST',
+      headers:{'Content-Type':'application/x-www-form-urlencoded'},
+      body:'id='+it.id}).catch(()=>{});
   }
-  toast('Review copied ✓');
-  track('review_copied',{stars:current.stars,id:current.id});
-  // burn it so nobody else gets it
-  if(current.id){ fetch(CFG.api+'copied.php',{method:'POST',
-    headers:{'Content-Type':'application/x-www-form-urlencoded'},
-    body:'id='+current.id}).catch(()=>{}); }
-  const c=$('#copyBtn'); c.textContent='Copied ✓'; c.disabled=true;
-  const go=$('#goBtn'); go.href=CFG.googleReview; go.classList.remove('hidden');
-  go.addEventListener('click',()=>track('left_review',{}),{once:true});
-  // nudge to Google
-  setTimeout(()=>{ toast('Now paste it in Google ↓'); }, 400);
+  track('review_copied',{stars:currentStars,id:it.id});
+  el.classList.add('copied');
+  btn.textContent = 'Copied ✓'; btn.disabled = true;
+  toast('Copied ✓ — now paste it in Google');
+  // reveal the sticky Google button
+  const dock=$('#dock'), go=$('#goBtn');
+  go.href = CFG.googleReview;
+  dock.classList.remove('hidden');
+  document.body.classList.add('has-dock');
+  go.onclick = ()=> track('left_review',{});
+}
+
+$('#moreBtn').addEventListener('click', async (e)=>{
+  const btn = e.currentTarget;
+  track('show_more',{});
+  btn.disabled = true; btn.textContent = 'Loading…';
+  let added = 0;
+  try{
+    const r = await fetch(CFG.api+'list.php?stars='+currentStars+'&n=8',{cache:'no-store'});
+    const d = await r.json();
+    added = renderList(d.items||[], false);
+  }catch(e){}
+  btn.disabled = false; btn.textContent = 'Show more reviews';
+  if(!added) toast('That’s all the reviews for now');
 });
 
 /* ---------- negative: private WhatsApp ---------- */
 function openNegative(v){
-  current.stars=v;
+  currentStars = v;
   show('negative');
   track('low_rating',{stars:v});
   buildWa();
   $('#fbText').addEventListener('input', buildWa);
 }
 function buildWa(){
-  const msg = 'Hi Trishika, I rated my recent ride '+current.stars+
+  const msg = 'Hi Trishika, I rated my recent ride '+currentStars+
     ' star. Here is what happened: '+($('#fbText').value.trim()||'');
   $('#waBtn').href='https://wa.me/'+CFG.whatsapp+'?text='+encodeURIComponent(msg);
 }
-$('#waBtn').addEventListener('click',()=>track('feedback_sent',{stars:current.stars}));
+$('#waBtn').addEventListener('click',()=>track('feedback_sent',{stars:currentStars}));
 </script>
 </body>
 </html>
