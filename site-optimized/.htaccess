@@ -55,3 +55,14 @@ ErrorDocument 404 /404.html
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
+
+# ===== Tracking script must stay current =====
+# track-conversions.js fires Google Ads + GA4 conversions. A stale cached copy means
+# lost or incorrect conversion data, so it must never be cached for weeks like other JS.
+# It's tiny (~3 KB), so revalidate on every load — 304 Not Modified responses are cheap.
+<IfModule mod_headers.c>
+  <Files "track-conversions.js">
+    Header set Cache-Control "no-cache, must-revalidate, max-age=0"
+    Header unset Expires
+  </Files>
+</IfModule>
