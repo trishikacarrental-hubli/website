@@ -9,7 +9,7 @@ Google Business Profile on 2026-07-09.
 
 | Field | Value |
 |---|---|
-| **Business name** | `Trishika Car Rental` |
+| **Business name** | `Trishika Car Rental Hubli` |
 | **Address line** | `Shop No 37, Yashasvi Apt, Gokul Rd, Gandhi Nagar` |
 | **City** | `Hubballi` |
 | **State** | `Karnataka` |
@@ -23,11 +23,13 @@ Google Business Profile on 2026-07-09.
 | **Google review link** | `https://g.page/r/CYYqAGCT8WJ6EBM/review` |
 
 ### Name note
-The Google Business Profile currently reads **"Trishika Car Rental Hubli"** (city appended).
-Google's guidelines want the *real* name only (`Trishika Car Rental`) with the city in the
-address field. For directories that have a **separate city field**, use `Trishika Car Rental`.
-Match whatever the GBP says only if a directory has no city field. Don't rename the GBP itself
-without reason — a name edit can trigger re-verification.
+Both the **Google Business Profile** and the **website's LocalBusiness schema** already use
+`Trishika Car Rental Hubli`, so use that exact name on every listing for consistency — that's
+what Google matches against. (Google's guideline technically prefers the city out of the name,
+but standardising on what GBP + the site already say beats "purer" but inconsistent. Only revisit
+if you ever clean the GBP name to plain `Trishika Car Rental` — then change everything together.)
+The visual brand/logo can still read "Trishika Car Rental"; it's the *listing name* field that
+must match GBP. Don't rename the GBP without reason — a name edit can trigger re-verification.
 
 ### Format rules (do NOT vary)
 - Always `Gokul Rd` (not "Road", not "Gokul Road").
