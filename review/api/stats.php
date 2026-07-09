@@ -3,7 +3,7 @@
    Shows how many reviews are available / served / used so you know when to top up. */
 require __DIR__.'/db.php';
 
-$KEY = 'trishika-stats-7c1b';           // <-- change this
+$KEY = 'st-3Hn6Pj4wRbQy8';           // <-- change this
 if(($_GET['key'] ?? '') !== $KEY){ http_response_code(403); exit('forbidden'); }
 
 try{

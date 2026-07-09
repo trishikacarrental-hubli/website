@@ -4,7 +4,7 @@
    Safe to re-run after adding new lines to seed_reviews.txt (duplicates are skipped). */
 require __DIR__.'/db.php';
 
-$KEY = 'trishika-setup-9f3a';            // <-- change this before uploading
+$KEY = 'su-7Fq2Kd9mXtZr4';            // <-- change this before uploading
 if(($_GET['key'] ?? '') !== $KEY){ http_response_code(403); exit('forbidden'); }
 header('Content-Type: text/plain');
 
