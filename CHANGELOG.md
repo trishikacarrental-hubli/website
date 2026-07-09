@@ -218,3 +218,44 @@ Added `track-conversions.js` to /site-optimized/ and referenced it on all 11 pag
 ## 2026-07-09 — DEPLOY #3 (live)
 
 CRO fixes shipped via Hostinger (Sayed uploaded deploy3-cro.zip → Claude extracted to /deploy3/ → moved 3 files to public_html with replace-all → deleted folder+zip). **Verified live:** hero rating pill ✓, "58 Google reviews" ✓, H1 rental-first (Rental span) ✓, Vehicle/Date optional ✓, Date required=false ✓, css .hero-rating ✓, js 4-field validation ✓. Site now fully current with Phases 2–4 + 7. (Note: File Browser direct-URL session token rotates — re-enter via hPanel File Manager to get a fresh token; old srv-host URLs 403.)
+
+## 2026-07-09 (evening) — Conversion event WIRED into track-conversions.js + tracking cache fixed (DEPLOY #5)
+
+Context: the "Contact – Call & WhatsApp" action was showing **0 conversions / "Manual event · Untitled tag"**. To make conversion firing resilient to the FortuneMarq Automator repeatedly breaking GTM (see RISKS/HANDOFF §5), added a **direct gtag conversion fire** in `track-conversions.js` (independent of the GTM container) and deployed via Hostinger File Manager (Ace-editor content injection — extension can't upload files).
+
+| File | Change | Why |
+|---|---|---|
+| `site-optimized/track-conversions.js` | Added `gtag('config','AW-17442020753')` (registers the Ads tag on the existing GA4 gtag.js instance) + an `adsContactConversion()` that fires `gtag('event','conversion',{send_to:'AW-17442020753/_imzCNTi_MwcEJG7gP1A', value:150, currency:'INR'})` on every Call (`tel:`) and WhatsApp (`wa.me`) click | Fire the "Contact" conversion directly, not only via GTM |
+| `site-optimized/.htaccess` | Added a `<Files "track-conversions.js">` block: `Cache-Control: no-cache, must-revalidate` + unset Expires (was inheriting the 7-day/1-month JS cache) | A tracking script must always be current; a stale cached copy silently loses/mis-values conversions |
+
+- **Verified live end-to-end:** a real `tel:` click on the production homepage fired `googleadservices.com/pagead/conversion/17442020753/?…&en=conversion&label=_imzCNTi_MwcEJG7gP1A` (correct ID + label). `AW-17442020753` base tag loads on the page. Cache header confirmed changed to `no-cache` on track-conversions.js only (other JS still `max-age=604800`).
+- **⚠️ REDUNDANCY NOTE (verify once traffic flows):** GTM v9 *also* fires this same conversion via its `call_click`/`whatsapp_click`/`form_submit_whatsapp` Custom-Event triggers. So a Call/WhatsApp click now fires the beacon **twice** (GTM tag + direct gtag). Because the conversion action's **count = "One" per ad click, Google de-dups to 1 conversion** — so no inflation — but this is belt-and-suspenders. Once the FortuneMarq Automator is disabled and GTM v9 is stable, consolidate to ONE mechanism (recommend keeping the direct gtag fire in track-conversions.js, since it survives GTM being clobbered, and removing the GTM conversion tag). value ₹150 is set on both.
+
+## 2026-07-09 (evening) — Google Ads RESTRUCTURE APPLIED + POSTED to the live account (via Google Ads Editor)
+
+The `/ads/import/` pack (Phase 6) was **applied and posted** to account **983-550-8200 (Trishika Car Rental Hubli)** using **Google Ads Editor v2.12.6** (driven via computer-use; account accessed through the **bashakhansab21@gmail.com** manager login on a separate Chrome profile — note trishikacarrentalhubli@gmail.com also has access, and a second empty account **497-218-8611** exists in the same login). Per-section paste worked once done in each entity's own view (Ad Groups view for ad groups, Keywords view for keywords, etc.) — the campaign-level "Make multiple changes" only creates campaigns/ad groups, and account-level negatives/callouts pasted there create a junk blank campaign (avoided). **Everything created PAUSED.**
+
+| Posted to account | Count | Notes |
+|---|---|---|
+| Campaigns | 4 | Search - Core Local (₹300/day) · Airport (₹80) · Outstation Routes (₹120) · Vehicles (₹60). Manual CPC, Search-network only, EU-political-ads = No. |
+| Ad groups | 10 | Max CPC ₹22–25 |
+| Keywords | 44 | Phrase + Exact only (no broad) |
+| Responsive search ads | 10 | 15 headlines (H1 pinned) + 4 descriptions each, per-page Final URLs |
+| Negative keywords | 196 | 152 campaign-level (self-drive/apps/jobs/wrong-city/auto-repair × 4) + 44 ad-group cross-theme |
+| Location (targeting) | 4 | **Hubli-Dharwad, Karnataka (ID 9299150)** — see critical fix below |
+
+- **🐞 CRITICAL BUG CAUGHT + FIXED:** Editor created the 4 campaigns defaulted to targeting **United States (Country ID 2840)**. Left unfixed, every rupee would have burned on US traffic on recharge. Removed the US rows and set all 4 to **Hubli-Dharwad (9299150)** at campaign level; Editor's "Check changes" resolved them (City, reach 1.25M).
+- **Validated + posted:** Editor "Check changes" = 0 errors; "Post" = 4/4 campaigns, 10/10 ad groups, 44/44 keywords, 196/196 negatives, 4/4 locations, 10/10 RSAs uploaded.
+- **Language** left at Google default "All languages" (no separate Languages entity in this Editor build; English keywords scope intent anyway).
+- This **supersedes** the earlier single-campaign approaches: the "Search - Core Local (Rebuild)" draft (`draftId=10203609343`) is no longer the plan, and the old "03/22/2026 New Campaign" optimization is retired (see next entry).
+
+## 2026-07-09 (evening) — Old active campaign PAUSED + ad assets added (web UI)
+
+- **Paused "03/22/2026 New Campaign"** (was the only enabled campaign, ₹700/day, optimizing toward the old broken signal). Account total budget now **₹0/day** — all 8 campaigns paused, nothing spends until Sayed recharges + enables the new 4.
+- **Ad assets added at ACCOUNT level** (web UI — clean association, no Editor phantom-campaign quirk). All "Under review" (approve in ~hours). Entered reliably by setting the Angular inputs via their native value-setter + input event (coordinate-clicking drifted as the dialog scrolled):
+  - **6 callouts:** From Rs 10/km · 24/7 Availability · Clean AC Cars · Verified Drivers · No Hidden Charges · 5.0 Star Rated
+  - **6 sitelinks:** Airport Taxi (HBX) · Outstation Cabs · Tempo Traveller · Taxi Fares & Rates · Hubli to Goa · Rate Estimator — each with 2 descriptions + its landing page
+  - **1 structured snippet** (Service catalog): Airport Taxi, Outstation Cabs, Local City Rides, Tempo Traveller, Wedding Cars, Railway Pickup
+  - **Call asset** (082175 77849) already existed at account level (Eligible) — left as-is; call **reporting** deliberately left OFF to keep the real number displayed (not a Google forwarding number).
+- **Ready to publish:** Sayed recharges → Campaigns → select the 4 new → Enable.
+- Housekeeping: Google Ads Editor local copy has ~10 orphaned callout assets (from the reverted account-level-callout-in-Editor attempt) — **do NOT "Post" from Editor** or they'll be created; the web-UI callouts are the real ones.

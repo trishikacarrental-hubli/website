@@ -1,5 +1,9 @@
 # /ads/import/ — Google Ads Editor import pack
 
+> **✅ APPLIED & POSTED 2026-07-09 (evening).** This pack was imported into account 983-550-8200 via Google Ads Editor and posted live — **4 campaigns / 10 ad groups / 44 keywords / 10 RSAs / 196 negatives**, all PAUSED, location set to **Hubli-Dharwad** (Editor had defaulted them to US — fixed). Conversion tracking is live and firing. Old "03/22/2026 New Campaign" paused. Account-level assets (callouts/sitelinks/structured snippet) added via the web UI. **Only remaining: Sayed recharges + enables the 4 campaigns.** See `CHANGELOG.md` (2026-07-09 evening) and `HANDOFF.md` §4. The notes below are the original build/import guide, kept for reference.
+>
+> **Import gotcha learned:** the campaign-level "Make multiple changes" only creates campaigns/ad groups; do ad groups in the **Ad Groups view**, keywords in the **Keywords view**, RSAs in the **Ads view**, negatives in the **Negative keywords view** (each renders the right field mapping). Account-level negatives/callouts pasted via Editor's "Make multiple changes" create a **junk blank campaign** — do those in the web UI instead.
+
 Rebuild of account 983-550-8200 into intent-based campaigns. **Everything is created PAUSED — nothing spends until you review and enable it.**
 
 ## ⚠️ Do this FIRST — before importing anything

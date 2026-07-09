@@ -1,12 +1,14 @@
 # HANDOFF — Trishika Car Rental growth engine
 
-**Last updated: 2026-07-09 (end of Windows session, before handoff to Mac mini).**
+**Last updated: 2026-07-09 (evening) — Ads restructure applied & posted, tracking wired, assets added.**
 This is the master continuation doc. Read this first, then `CHANGELOG.md` (what changed), `RISKS.md` (watch-outs), `ASSUMPTIONS.md` (facts to verify). Detailed phase reports are in `/reports`. Ad build in `/ads`. GBP copy in `/gbp`.
 
 ---
 
 ## 0. Where things stand in one paragraph
-Website SEO build is ~90% done and **live** (fast site, 9 new pages, schema, rental-first titles). **Conversion tracking is rebuilt and VERIFIED firing** (GTM container `GTM-P92G7GNP` v9). Google Ads is cleaned up: junk conversions removed, one real "Contact" conversion is the account-default, and the **active campaign is optimized** (negatives list, AI Max off, CPC ≤ ₹24). A **new clean Search campaign is 95% built as a draft** — it only needs you to pass Google's "Confirm it's you" check, set the ₹300/day budget, and publish. On GBP, 8 primary-category service descriptions + 5 secondary-category services are being added; posts cadence is designed. The biggest remaining levers are **reviews, citations/NAP, and backlinks** — all off-page.
+Website SEO build is ~90% done and **live** (fast site, 9 new pages, schema, rental-first titles). **Conversion tracking fires two ways** — GTM `GTM-P92G7GNP` v9 *and* a direct gtag fire now built into `track-conversions.js` (resilient to the FortuneMarq Automator breaking GTM); verified live (real Call click → 200-OK conversion ping, correct ID/label). **The full Google Ads restructure is APPLIED and POSTED** to account 983-550-8200 (4 clean campaigns / 10 ad groups / 44 keywords / 10 RSAs / 196 negatives / Hubli-Dharwad geo) — **all PAUSED**, plus account-level assets (callouts, sitelinks, structured snippet, call). The old "03/22/2026 New Campaign" is now **paused** too, so account spend = ₹0/day. **The account is launch-ready: Sayed just recharges + enables the 4 new campaigns.** On GBP, service descriptions + secondary-category services are added; posts cadence is designed. The biggest remaining levers are **reviews, citations/NAP, and backlinks** — all off-page.
+
+> **⚡ NEXT ACTION (Sayed, tomorrow):** top up the Ads prepaid balance → Campaigns → select the 4 new campaigns (Core Local / Airport / Outstation Routes / Vehicles) → **Enable**. That's the launch. Tracking will attribute real Call/WhatsApp leads from day one. (Optionally leave one small campaign as a day-1 fallback, but the old "03/22" one should stay paused — it optimizes toward the old broken signal.)
 
 ---
 
@@ -19,10 +21,18 @@ Website SEO build is ~90% done and **live** (fast site, 9 new pages, schema, ren
 
 ## 2. LIVE / DONE
 ### Ads & tracking
-- ✅ GTM **v9 published & verified**: 3 Custom Event triggers (`call_click`, `whatsapp_click`, `form_submit_whatsapp`) → one Google Ads Conversion tag **"Google Ads - Contact (Call/WhatsApp/Form)"** (ID `17442020753`, label `_imzCNTi_MwcEJG7gP1A`) + base Google tag. Broken `btn` conversion tag deleted. Verified live: firing events sends real 200-OK conversion pings.
+- ✅ **Conversion tracking fires TWO ways** (belt-and-suspenders, de-dup'd by count=One):
+  1. GTM **v9**: 3 Custom Event triggers (`call_click`/`whatsapp_click`/`form_submit_whatsapp`) → Google Ads Conversion tag (ID `17442020753`, label `_imzCNTi_MwcEJG7gP1A`) + base tag.
+  2. **Direct gtag** in `track-conversions.js` (added 2026-07-09 eve): `gtag('config','AW-17442020753')` + fires the conversion on every `tel:`/`wa.me` click (value ₹150). Survives GTM being clobbered by the FortuneMarq Automator.
+  Verified live: real Call click → `pagead/conversion/17442020753/…&label=_imzCNTi_…&en=conversion`. `track-conversions.js` set to `no-cache` so tracking edits roll out instantly. *(Consolidate to one mechanism once the Automator is disabled — see CHANGELOG.)*
 - ✅ `track-conversions.js` deployed on all 11 pages.
-- ✅ Google Ads conversions cleaned: removed `Submit lead form` + `V2_Auto_Success_Test`; **"Contact – Call & WhatsApp"** is the sole action and the **account-default goal** (4/4 campaigns).
-- ✅ **Active campaign "03/22/2026 New Campaign"** optimized: shared negative list **"Trishika Master Negatives"** (37 competitor/junk terms) applied, **AI Max OFF**, **Max CPC ₹24**, conversion goal = Contact. Budget ₹700/day.
+- ✅ Google Ads conversions cleaned: removed `Submit lead form` + `V2_Auto_Success_Test`; **"Contact – Call & WhatsApp"** is the sole action and the **account-default goal** (all campaigns).
+- ✅ **FULL RESTRUCTURE APPLIED + POSTED** (via Google Ads Editor) to account 983-550-8200 — **all PAUSED**:
+  - 4 campaigns (Core Local ₹300 / Airport ₹80 / Outstation ₹120 / Vehicles ₹60), Manual CPC, Search-only, **location Hubli-Dharwad** (fixed from Editor's accidental US default), EU-political=No.
+  - 10 ad groups · 44 keywords (phrase/exact) · 10 RSAs (H1 pinned) · 196 negatives (152 campaign + 44 ad-group).
+  - Editor Check = 0 errors; Post = 100% of every entity type.
+- ✅ **Old "03/22/2026 New Campaign" PAUSED** (was ₹700/day enabled). Account total budget now **₹0/day**. The shared negative list "Trishika Master Negatives" and its AI-Max-off/CPC-₹24 tweaks are moot now that it's paused and replaced by the 4 new campaigns.
+- ✅ **Account-level assets** (web UI, "Under review"): 6 callouts, 6 sitelinks (each with 2 descriptions + landing page), 1 structured snippet (Service catalog, 6 values), + the pre-existing call asset (082175 77849; call reporting left OFF to keep the real number showing).
 ### Website SEO
 - ✅ 9 pages live (airport, tempo, 5 routes, outstation hub, fare) + rental-first titles/H1; schema (LocalBusiness/TaxiService + FAQPage); WebP images (page 9.8 MB → 909 KiB, paint ~1.7s); mobile hero video removed.
 - ✅ GSC verified + 10-URL sitemap submitted.
@@ -39,7 +49,7 @@ Website SEO build is ~90% done and **live** (fast site, 9 new pages, schema, ren
 3. **Backlinks** *(Sayed + Claude research)* — weakest area. Local partnerships (hotels, event planners, travel bloggers), tourism/route aggregators, business associations.
 
 ### 🟢 Claude-doable (queued for Mac mini continuation)
-4. **Finish the new Ads campaign** — see §4 (needs your "Confirm it's you" first).
+4. ~~Finish the new Ads campaign~~ **DONE** — the full 4-campaign restructure is applied + posted (paused). Only Sayed's recharge + Enable remains (§4).
 5. **GBP content** — post the weekly cadence (calendar in `gbp/posts_90day.md` + the 3×/week Jul batch drafted this session); Q&A seeding is **parked** (needs a 2nd Google account — owners can't ask questions on their own listing).
 6. **GSC health** — confirm all 10 pages indexed (submitted ≠ indexed); investigate the "1 other site moving to this site" note; set a query/rank baseline.
 7. **New pages** — more routes (Hubli→Hampi/Mysuru/Murudeshwar/Bengaluru airport), vehicle pages (Innova Crysta, Ertiga, Sedan), a couple of guide posts.
@@ -51,9 +61,14 @@ Website SEO build is ~90% done and **live** (fast site, 9 new pages, schema, ren
 11. **Ads balance top-up** — prepaid; decide before campaigns spend heavily.
 12. **Verify facts** — years in business, vehicle count, "no advance payment" true?, and confirm route distances/tolls/fares on the pages (`ASSUMPTIONS.md` #9–14).
 
-## 4. Finishing the new Ads campaign (draft is ready)
-Campaign **"Search - Core Local (Rebuild)"** is built as a draft in account 983-550-8200 (Campaigns → Drafts, `draftId=10203609343`). Settings already in: Search-only (no Display/Search-Partners), AI Max off, Hubli-Dharwad, EN/KN/HI, Maximize clicks + CPC ₹24, 16 exact+phrase keywords (car rental + taxi in Hubli), RSA (9 headlines/4 descriptions), Contact conversion goal.
-**To finish:** open the draft → Google throws a **"Confirm it's you"** identity check (needs your password/2FA — Claude can't do this) → set **budget ₹300/day** → Review → **Publish**. Then apply the **"Trishika Master Negatives"** list to it (shared list already exists). Keep total spend ≈ ₹1,000/day (active ₹700 + new ₹300).
+## 4. Launching the Ads (restructure is posted — just enable)
+The full restructure is **already posted** to account 983-550-8200 as **4 paused campaigns** with all keywords/ads/negatives/geo (no more drafts; the old `draftId=10203609343` "Search - Core Local (Rebuild)" and the single-campaign optimization are both superseded).
+**To launch (Sayed):**
+1. **Top up** the Ads prepaid balance (Billing).
+2. **Campaigns** → tick the 4 new campaigns (Core Local / Airport / Outstation Routes / Vehicles) → **Edit → Enable**.
+3. Leave the old campaigns paused (Campaign #1, LEADS 11/04, New Campaign 05/03, **03/22/2026 New Campaign**). Total budget of the 4 new = **≈₹560/day (~₹16.8k/mo)** — inside the ₹10–25k band; scale Core Local first to reach ₹25k.
+4. **Pre-launch sanity check** (2 min): confirm each new campaign's Location = Hubli-Dharwad only, Networks = Search only, and that a test Call/WhatsApp click has recorded a Contact conversion (Goals → Conversions; the action clears "no recent conversions" once a real click fires).
+- **Bidding path:** start Manual CPC (as posted) → after ~2–3 wks AND ≥15 real tracked conversions → Maximize Conversions → later tCPA. Do NOT jump to tCPA/PMax on thin data.
 
 ## 5. ⚠️ CRITICAL — FortuneMarq Automator
 An app Sayed built ("FortuneMarq Automator") auto-published GTM container versions 4–8, and **each run deletes & re-adds the broken `btn` conversion tag + a test conversion**. If you re-run it against this container it will **clobber the clean v9 + the Ads cleanup**. Fix or disable that app before running it here again. (RISKS.md #4a.)

@@ -12,6 +12,12 @@ The GTM build below is complete and live (container **GTM-P92G7GNP**, Version 9)
 
 Note: no GA4 was used — went GTM → Google Ads conversion tag directly (see revised approach below). The GA4-based steps (C/D) are therefore OPTIONAL/superseded.
 
+## ✅ UPDATE 2026-07-09 (evening) — direct gtag fire added as a GTM-independent backup + verified live
+Because the FortuneMarq Automator keeps clobbering GTM, `track-conversions.js` now fires the conversion **directly** (not only via the GTM dataLayer path): it runs `gtag('config','AW-17442020753')` and, on every `tel:`/`wa.me` click, `gtag('event','conversion',{send_to:'AW-17442020753/_imzCNTi_MwcEJG7gP1A', value:150, currency:'INR'})`.
+- **Verified on production:** a real Call click fired `googleadservices.com/pagead/conversion/17442020753/?…&label=_imzCNTi_MwcEJG7gP1A&en=conversion`.
+- `track-conversions.js` is now served `no-cache` (was inheriting a multi-week JS cache) so tracking changes propagate immediately.
+- **⚠️ Double-fire:** with GTM v9 also firing this conversion on the same clicks, the beacon now fires twice — but the action's **count = "One" per ad click de-dups to 1 conversion**, so no inflation. Once the Automator is disabled, consolidate to ONE path (keep the direct gtag fire; remove the GTM conversion tag). The `V2_Auto_Success_Test` action was already removed; "Contact – Call & WhatsApp" is the sole action + account-default goal.
+
 ## ⚡ GTM container state — inspected live 2026-07-09
 
 Opened container **GTM-P92G7GNP** (the one on the site). Findings that change the plan:
