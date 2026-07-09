@@ -2,6 +2,20 @@
    Framework-free. Pushes: call_click, whatsapp_click, form_submit_whatsapp.
    Deploy to site root and load with: <script src="/track-conversions.js" defer></script>
    Works alongside GTM-P92G7GNP (already on the site). */
+
+/* GA4 (gtag.js) — property G-DCRPBD1L2J. Loaded here so every page that
+   includes this script gets Analytics, without editing each page's <head>. */
+(function () {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-DCRPBD1L2J';
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', 'G-DCRPBD1L2J');
+})();
+
 (function () {
   window.dataLayer = window.dataLayer || [];
   function push(event, detail) {
