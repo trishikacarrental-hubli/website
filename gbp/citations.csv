@@ -1,0 +1,26 @@
+priority,source,url,cost,status,notes
+P0,JustDial,https://www.justdial.com,Free (paid tiers optional),EXISTS — FIX NAP,"4.9★/~131 reviews under phone 98452 06189. After canonical-phone decision: claim, align phone+address+site link byte-identical. Single most valuable citation action."
+P0,Google Business Profile,https://business.google.com,Free,DONE,"Verified, manager access. Categories/description updates pending this phase."
+P1,Facebook page,https://www.facebook.com,Free,EXISTS — VERIFY NAP,"Page 'Trishika Car Rental Hubli'. Align phone/address/website; add rate-card link."
+P1,Instagram bio,https://www.instagram.com/trishika_car_rentals_offical,Free,EXISTS — FIX,"Bio should carry canonical phone + site. STOP the 'Madhu Car Rentals / self-drive / 7019618668' posts (HANDOFF)."
+P1,Bing Places,https://www.bingplaces.com,Free,CREATE,"Import from GBP option makes this 10 minutes. Bing feeds other services."
+P1,Apple Business Connect,https://businessconnect.apple.com,Free,CREATE,"Apple Maps listing — iPhone users at HBX airport are exactly the airport-taxi buyer."
+P1,Sulekha,https://www.sulekha.com,Free listing (paid leads optional),CREATE,"Major Indian services directory; taxi/car-rental categories. Skip paid leads for now."
+P1,IndiaMART,https://www.indiamart.com,Free,CREATE,"B2B visibility for corporate/tempo-traveller demand; company page with services."
+P2,TripAdvisor (Transportation),https://www.tripadvisor.in,Free,CREATE,"Category: Taxis & Shuttles Hubballi. Tourist traffic for Goa/Gokarna/Hampi routes."
+P2,Yellow Pages India,https://www.yellowpages.in,Free,CREATE,Standard NAP citation.
+P2,AskLaila,https://www.asklaila.com,Free,CREATE,Strong for Karnataka local searches.
+P2,Grotal,https://www.grotal.com,Free,CREATE,North-Karnataka coverage decent.
+P2,ClickIndia,https://www.clickindia.com,Free,CREATE,Classifieds + services citation.
+P2,Yalwa India,https://www.yalwa.in,Free,CREATE,Business directory.
+P2,Hotfrog India,https://www.hotfrog.in,Free,CREATE,Business directory.
+P2,Cylex India,https://www.cylex.in,Free,CREATE,Business directory.
+P2,Tupalo,https://www.tupalo.co,Free,CREATE,Business directory.
+P2,IndiaCatalog,https://www.indiacatalog.com,Free,CREATE,Business directory.
+P2,Yet5,https://www.yet5.com,Free,CREATE,South-India services directory.
+P2,MouthShut,https://www.mouthshut.com,Free,CREATE,"Review platform; secondary review surface."
+P3,DreamWeddingHub,https://dreamweddinghub.com,Unknown (likely free),EXISTS — VERIFY NAP,"Already listed for wedding car rental. Verify phone matches canonical."
+P3,WedMeGood (vendor),https://www.wedmegood.com,Free basic,CREATE,"Wedding transport vendor listing — matches the wedding services angle."
+P3,Karnataka Tourism-adjacent directories,https://karnatakatourism.org,Free,RESEARCH,"No open directory; look for approved-operator listings via district tourism office."
+P3,Hubballi-Dharwad local directories,varies,Free,RESEARCH,"City-level directories (hubballi city portals, HDMC-adjacent listings) — verify quality before submitting; skip spammy ones."
+P3,Quikr Services,https://www.quikr.com,Free,OPTIONAL,"Services listing; moderate value, some spam exposure — lowest priority."

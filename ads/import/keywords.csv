@@ -1,0 +1,45 @@
+Campaign,Ad Group,Keyword,Match Type,Max CPC
+Search - Core Local,Car Rental Hubli,car rental in hubli,Exact,25
+Search - Core Local,Car Rental Hubli,car rental in hubli,Phrase,25
+Search - Core Local,Car Rental Hubli,car rental hubli,Phrase,25
+Search - Core Local,Car Rental Hubli,rental car in hubli,Phrase,25
+Search - Core Local,Car Rental Hubli,car for rent hubli,Phrase,25
+Search - Core Local,Car Rental Hubli,rent a car in hubli,Phrase,25
+Search - Core Local,Car Rental Hubli,car on rent in hubli,Phrase,25
+Search - Core Local,Car Rental Hubli,car rental in hubli with driver,Phrase,25
+Search - Core Local,Taxi & Cab Hubli,taxi service in hubli,Exact,25
+Search - Core Local,Taxi & Cab Hubli,taxi service in hubli,Phrase,25
+Search - Core Local,Taxi & Cab Hubli,cab service in hubli,Phrase,25
+Search - Core Local,Taxi & Cab Hubli,taxi in hubli,Phrase,25
+Search - Core Local,Taxi & Cab Hubli,cab in hubli,Phrase,25
+Search - Core Local,Taxi & Cab Hubli,hubli taxi service,Phrase,25
+Search - Core Local,Taxi & Cab Hubli,cab booking hubli,Phrase,25
+Search - Core Local,Taxi & Cab Hubli,cab service hubli,Phrase,25
+Search - Core Local,Travels Hubli,car travels in hubli,Phrase,22
+Search - Core Local,Travels Hubli,hubli car travels,Phrase,22
+Search - Core Local,Travels Hubli,travels in hubli,Phrase,22
+Search - Core Local,Travels Hubli,tours and travels in hubli,Phrase,22
+Search - Airport,Airport Taxi HBX,hubli airport taxi,Phrase,22
+Search - Airport,Airport Taxi HBX,taxi service in hubli airport,Phrase,22
+Search - Airport,Airport Taxi HBX,hubli airport taxi service,Phrase,22
+Search - Airport,Airport Taxi HBX,dharwad to hubli airport taxi,Phrase,22
+Search - Outstation Routes,Route - Goa,hubli to goa taxi,Phrase,22
+Search - Outstation Routes,Route - Goa,hubli to goa cab,Phrase,22
+Search - Outstation Routes,Route - Goa,hubli to goa car rental,Phrase,22
+Search - Outstation Routes,Route - Goa,hubli to goa cab fare,Phrase,22
+Search - Outstation Routes,Route - Bangalore,hubli to bangalore cab,Phrase,22
+Search - Outstation Routes,Route - Bangalore,hubli to bangalore taxi,Phrase,22
+Search - Outstation Routes,Route - Bangalore,hubli to bangalore car rental,Phrase,22
+Search - Outstation Routes,Route - Dandeli,hubli to dandeli cab,Phrase,22
+Search - Outstation Routes,Route - Dandeli,hubli to dandeli taxi,Phrase,22
+Search - Outstation Routes,Route - Dandeli,hubli to dandeli car rental,Phrase,22
+Search - Outstation Routes,Route - Gokarna,hubli to gokarna cab,Phrase,22
+Search - Outstation Routes,Route - Gokarna,hubli to gokarna taxi,Phrase,22
+Search - Outstation Routes,Route - Gokarna,hubli to gokarna car rental,Phrase,22
+Search - Outstation Routes,Route - Belgaum,hubli to belgaum cab,Phrase,22
+Search - Outstation Routes,Route - Belgaum,hubli to belgaum taxi,Phrase,22
+Search - Vehicles,Tempo Traveller & Group,tempo traveller in hubli,Phrase,22
+Search - Vehicles,Tempo Traveller & Group,tempo traveller rent in hubli,Phrase,22
+Search - Vehicles,Tempo Traveller & Group,tempo traveller rent per km in hubli,Phrase,22
+Search - Vehicles,Tempo Traveller & Group,force urbania for rent in hubli,Phrase,22
+Search - Vehicles,Tempo Traveller & Group,mini bus rent in hubli,Phrase,22

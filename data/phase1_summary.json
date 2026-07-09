@@ -1,0 +1,1170 @@
+{
+ "rows_in": 1340,
+ "unique_normalized": 725,
+ "totals": {
+  "impr": 18648,
+  "clicks": 1414,
+  "cost": 27713.13,
+  "conv": 44.01
+ },
+ "by_intent": {
+  "transactional": {
+   "n": 433,
+   "impr": 16885,
+   "clicks": 1272,
+   "cost": 25245.67,
+   "conv": 41.51
+  },
+  "navigational": {
+   "n": 142,
+   "impr": 1184,
+   "clicks": 64,
+   "cost": 1220.76,
+   "conv": 2.5
+  },
+  "irrelevant": {
+   "n": 82,
+   "impr": 421,
+   "clicks": 66,
+   "cost": 1074.38,
+   "conv": 0.0
+  },
+  "informational": {
+   "n": 62,
+   "impr": 147,
+   "clicks": 11,
+   "cost": 168.51,
+   "conv": 0.0
+  },
+  "job-seeker": {
+   "n": 6,
+   "impr": 11,
+   "clicks": 1,
+   "cost": 3.81,
+   "conv": 0.0
+  }
+ },
+ "by_cluster": {
+  "core-local": {
+   "n": 132,
+   "impr": 15374,
+   "clicks": 1151,
+   "cost": 22974.2,
+   "conv": 34.0
+  },
+  "competitor": {
+   "n": 141,
+   "impr": 1158,
+   "clicks": 58,
+   "cost": 1149.63,
+   "conv": 2.5
+  },
+  "airport": {
+   "n": 12,
+   "impr": 219,
+   "clicks": 12,
+   "cost": 222.61,
+   "conv": 3.01
+  },
+  "travels-local": {
+   "n": 49,
+   "impr": 469,
+   "clicks": 43,
+   "cost": 637.82,
+   "conv": 2.0
+  },
+  "route-belgaum": {
+   "n": 2,
+   "impr": 8,
+   "clicks": 1,
+   "cost": 24.78,
+   "conv": 1.0
+  },
+  "route-bangalore": {
+   "n": 11,
+   "impr": 39,
+   "clicks": 5,
+   "cost": 108.29,
+   "conv": 1.0
+  },
+  "vehicle-force-urbania": {
+   "n": 4,
+   "impr": 22,
+   "clicks": 4,
+   "cost": 99.83,
+   "conv": 0.5
+  },
+  "self-drive": {
+   "n": 25,
+   "impr": 291,
+   "clicks": 56,
+   "cost": 838.99,
+   "conv": 0.0
+  },
+  "core-generic": {
+   "n": 98,
+   "impr": 205,
+   "clicks": 10,
+   "cost": 302.85,
+   "conv": 0.0
+  },
+  "vehicle-tempo-traveller": {
+   "n": 19,
+   "impr": 171,
+   "clicks": 15,
+   "cost": 266.95,
+   "conv": 0.0
+  },
+  "wrong-geo": {
+   "n": 5,
+   "impr": 10,
+   "clicks": 3,
+   "cost": 101.07,
+   "conv": 0.0
+  },
+  "route-gokarna": {
+   "n": 9,
+   "impr": 29,
+   "clicks": 2,
+   "cost": 81.54,
+   "conv": 0.0
+  },
+  "misc-local": {
+   "n": 47,
+   "impr": 130,
+   "clicks": 10,
+   "cost": 123.76,
+   "conv": 0.0
+  },
+  "brand-own": {
+   "n": 1,
+   "impr": 26,
+   "clicks": 6,
+   "cost": 71.13,
+   "conv": 0.0
+  },
+  "outstation": {
+   "n": 5,
+   "impr": 60,
+   "clicks": 3,
+   "cost": 44.76,
+   "conv": 0.0
+  },
+  "price-generic": {
+   "n": 15,
+   "impr": 17,
+   "clicks": 1,
+   "cost": 44.75,
+   "conv": 0.0
+  },
+  "route-goa": {
+   "n": 11,
+   "impr": 105,
+   "clicks": 11,
+   "cost": 221.95,
+   "conv": 0.0
+  },
+  "misc-irrelevant": {
+   "n": 47,
+   "impr": 72,
+   "clicks": 3,
+   "cost": 58.79,
+   "conv": 0.0
+  },
+  "railway": {
+   "n": 3,
+   "impr": 4,
+   "clicks": 1,
+   "cost": 43.52,
+   "conv": 0.0
+  },
+  "vehicle-force-cruiser": {
+   "n": 1,
+   "impr": 18,
+   "clicks": 2,
+   "cost": 39.97,
+   "conv": 0.0
+  },
+  "auto-repair": {
+   "n": 5,
+   "impr": 48,
+   "clicks": 4,
+   "cost": 75.53,
+   "conv": 0.0
+  },
+  "route-dandeli": {
+   "n": 6,
+   "impr": 33,
+   "clicks": 5,
+   "cost": 78.9,
+   "conv": 0.0
+  },
+  "route-into-hubli-bangalore": {
+   "n": 8,
+   "impr": 15,
+   "clicks": 2,
+   "cost": 44.8,
+   "conv": 0.0
+  },
+  "local-package": {
+   "n": 8,
+   "impr": 27,
+   "clicks": 2,
+   "cost": 38.24,
+   "conv": 0.0
+  },
+  "vehicle-innova": {
+   "n": 12,
+   "impr": 17,
+   "clicks": 1,
+   "cost": 13.51,
+   "conv": 0.0
+  },
+  "job-irrelevant": {
+   "n": 6,
+   "impr": 11,
+   "clicks": 1,
+   "cost": 3.81,
+   "conv": 0.0
+  },
+  "corporate": {
+   "n": 2,
+   "impr": 2,
+   "clicks": 1,
+   "cost": 0.81,
+   "conv": 0.0
+  },
+  "travels-generic": {
+   "n": 6,
+   "impr": 18,
+   "clicks": 1,
+   "cost": 0.34,
+   "conv": 0.0
+  },
+  "route-kapda": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-eeco": {
+   "n": 3,
+   "impr": 4,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-murudeshwar": {
+   "n": 1,
+   "impr": 4,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-luxury": {
+   "n": 1,
+   "impr": 2,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-udupi": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-suv-(generic)": {
+   "n": 3,
+   "impr": 3,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-sedan-(dzire-etios)": {
+   "n": 5,
+   "impr": 5,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-ertiga": {
+   "n": 6,
+   "impr": 7,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-into-hubli-goa": {
+   "n": 2,
+   "impr": 7,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-into-hubli-going": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-into-hubli-location": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "tour-package": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-hampi": {
+   "n": 3,
+   "impr": 6,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-innova-crysta": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-into-hubli-places": {
+   "n": 2,
+   "impr": 2,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-visit": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "driver-hire": {
+   "n": 1,
+   "impr": 2,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-ulavi": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  }
+ },
+ "by_action": {
+  "scale-paid": {
+   "n": 183,
+   "impr": 15893,
+   "clicks": 1202,
+   "cost": 23723.03,
+   "conv": 38.5
+  },
+  "both": {
+   "n": 36,
+   "impr": 554,
+   "clicks": 67,
+   "cost": 1330.46,
+   "conv": 5.51
+  },
+  "negative-keyword": {
+   "n": 229,
+   "impr": 1567,
+   "clicks": 124,
+   "cost": 2232.69,
+   "conv": 0.0
+  },
+  "ignore": {
+   "n": 166,
+   "impr": 371,
+   "clicks": 21,
+   "cost": 426.95,
+   "conv": 0.0
+  },
+  "build-organic-page": {
+   "n": 111,
+   "impr": 263,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  }
+ },
+ "routes": {
+  "route-belgaum": {
+   "n": 2,
+   "impr": 8,
+   "clicks": 1,
+   "cost": 24.78,
+   "conv": 1.0
+  },
+  "route-bangalore": {
+   "n": 11,
+   "impr": 39,
+   "clicks": 5,
+   "cost": 108.29,
+   "conv": 1.0
+  },
+  "route-gokarna": {
+   "n": 9,
+   "impr": 29,
+   "clicks": 2,
+   "cost": 81.54,
+   "conv": 0.0
+  },
+  "route-goa": {
+   "n": 11,
+   "impr": 105,
+   "clicks": 11,
+   "cost": 221.95,
+   "conv": 0.0
+  },
+  "route-dandeli": {
+   "n": 6,
+   "impr": 33,
+   "clicks": 5,
+   "cost": 78.9,
+   "conv": 0.0
+  },
+  "route-into-hubli-bangalore": {
+   "n": 8,
+   "impr": 15,
+   "clicks": 2,
+   "cost": 44.8,
+   "conv": 0.0
+  },
+  "route-kapda": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-murudeshwar": {
+   "n": 1,
+   "impr": 4,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-udupi": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-into-hubli-goa": {
+   "n": 2,
+   "impr": 7,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-into-hubli-going": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-into-hubli-location": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-hampi": {
+   "n": 3,
+   "impr": 6,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-into-hubli-places": {
+   "n": 2,
+   "impr": 2,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-visit": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "route-ulavi": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  }
+ },
+ "bleeders_top": [
+  {
+   "normalized": "rental car hubli",
+   "clicks": 38,
+   "cost": 780.39,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car for rent in hubli",
+   "clicks": 24,
+   "cost": 452.18,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rental in hubli with driver",
+   "clicks": 23,
+   "cost": 434.25,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli rental car",
+   "clicks": 17,
+   "cost": 357.76,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car booking hubli",
+   "clicks": 13,
+   "cost": 330.82,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car travels in hubli",
+   "clicks": 12,
+   "cost": 292.99,
+   "cluster": "travels-local"
+  },
+  {
+   "normalized": "rent a car hubli",
+   "clicks": 15,
+   "cost": 287.0,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rent in hubli",
+   "clicks": 16,
+   "cost": 277.47,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rapido in hubli",
+   "clicks": 12,
+   "cost": 233.31,
+   "cluster": "competitor"
+  },
+  {
+   "normalized": "cab booking hubli",
+   "clicks": 11,
+   "cost": 230.19,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "taxi in hubli",
+   "clicks": 11,
+   "cost": 220.37,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "taxi service hubli",
+   "clicks": 12,
+   "cost": 217.42,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli cab service",
+   "clicks": 13,
+   "cost": 210.09,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "best car rental in hubli",
+   "clicks": 12,
+   "cost": 208.0,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rent a car in hubli",
+   "clicks": 12,
+   "cost": 201.65,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rapido hubli",
+   "clicks": 8,
+   "cost": 180.91,
+   "cluster": "competitor"
+  },
+  {
+   "normalized": "rental car in hubli without driver",
+   "clicks": 8,
+   "cost": 162.05,
+   "cluster": "self-drive"
+  },
+  {
+   "normalized": "hubli car rental service",
+   "clicks": 7,
+   "cost": 156.48,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rental with driver",
+   "clicks": 1,
+   "cost": 145.29,
+   "cluster": "core-generic"
+  },
+  {
+   "normalized": "car rental in dharwad",
+   "clicks": 7,
+   "cost": 142.42,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "zoom car in hubli",
+   "clicks": 6,
+   "cost": 138.64,
+   "cluster": "competitor"
+  },
+  {
+   "normalized": "cab booking in hubli",
+   "clicks": 5,
+   "cost": 125.33,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rental hubli without driver",
+   "clicks": 5,
+   "cost": 116.64,
+   "cluster": "self-drive"
+  },
+  {
+   "normalized": "self driven car in hubli",
+   "clicks": 5,
+   "cost": 113.49,
+   "cluster": "self-drive"
+  },
+  {
+   "normalized": "car on rent in hubli",
+   "clicks": 6,
+   "cost": 111.2,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli taxi service rates",
+   "clicks": 4,
+   "cost": 109.34,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli rent car",
+   "clicks": 5,
+   "cost": 105.48,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rental in hubli without driver",
+   "clicks": 6,
+   "cost": 100.85,
+   "cluster": "self-drive"
+  },
+  {
+   "normalized": "cab booking",
+   "clicks": 1,
+   "cost": 97.47,
+   "cluster": "core-generic"
+  },
+  {
+   "normalized": "cab hubli",
+   "clicks": 5,
+   "cost": 97.25,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "self drive car in hubli",
+   "clicks": 7,
+   "cost": 95.84,
+   "cluster": "self-drive"
+  },
+  {
+   "normalized": "tempo traveller rent in hubli",
+   "clicks": 5,
+   "cost": 89.89,
+   "cluster": "vehicle-tempo-traveller"
+  },
+  {
+   "normalized": "car rental in hubli dharwad",
+   "clicks": 4,
+   "cost": 89.02,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "taxi hubli",
+   "clicks": 5,
+   "cost": 89.02,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rental rishikesh",
+   "clicks": 1,
+   "cost": 84.53,
+   "cluster": "wrong-geo"
+  },
+  {
+   "normalized": "hubli to gokarna",
+   "clicks": 2,
+   "cost": 81.54,
+   "cluster": "route-gokarna"
+  },
+  {
+   "normalized": "khushi travels hubli",
+   "clicks": 3,
+   "cost": 80.31,
+   "cluster": "competitor"
+  },
+  {
+   "normalized": "zoom car hubli",
+   "clicks": 4,
+   "cost": 79.1,
+   "cluster": "competitor"
+  },
+  {
+   "normalized": "self car rental in hubli",
+   "clicks": 6,
+   "cost": 78.5,
+   "cluster": "self-drive"
+  },
+  {
+   "normalized": "hubli car",
+   "clicks": 3,
+   "cost": 76.0,
+   "cluster": "misc-local"
+  }
+ ],
+ "bleed_total": 9871.23,
+ "money_by_conv": [
+  {
+   "normalized": "car rental in hubli",
+   "clicks": 214,
+   "cost": 4820.6,
+   "conversions": 11.65,
+   "cpa": 413.79,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "taxi service in hubli",
+   "clicks": 102,
+   "cost": 2242.17,
+   "conversions": 5.0,
+   "cpa": 448.43,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car for rent hubli",
+   "clicks": 17,
+   "cost": 433.51,
+   "conversions": 3.0,
+   "cpa": 144.5,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "tt travels in hubli",
+   "clicks": 2,
+   "cost": 39.88,
+   "conversions": 2.5,
+   "cpa": 15.95,
+   "cluster": "competitor"
+  },
+  {
+   "normalized": "taxi service in hubli airport",
+   "clicks": 8,
+   "cost": 141.38,
+   "conversions": 2.01,
+   "cpa": 70.34,
+   "cluster": "airport"
+  },
+  {
+   "normalized": "car rental hubli",
+   "clicks": 107,
+   "cost": 1951.31,
+   "conversions": 2.0,
+   "cpa": 975.65,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rental car in hubli",
+   "clicks": 75,
+   "cost": 1386.1,
+   "conversions": 2.0,
+   "cpa": 693.05,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rent hubli",
+   "clicks": 42,
+   "cost": 849.15,
+   "conversions": 2.0,
+   "cpa": 424.58,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "cab service in hubli",
+   "clicks": 81,
+   "cost": 1510.35,
+   "conversions": 1.33,
+   "cpa": 1135.6,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli car rental",
+   "clicks": 58,
+   "cost": 1038.68,
+   "conversions": 1.0,
+   "cpa": 1038.68,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rent car in hubli",
+   "clicks": 36,
+   "cost": 712.65,
+   "conversions": 1.0,
+   "cpa": 712.65,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rent car hubli",
+   "clicks": 31,
+   "cost": 632.21,
+   "conversions": 1.0,
+   "cpa": 632.21,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli taxi service",
+   "clicks": 27,
+   "cost": 546.15,
+   "conversions": 1.0,
+   "cpa": 546.15,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "cab in hubli",
+   "clicks": 30,
+   "cost": 530.93,
+   "conversions": 1.0,
+   "cpa": 530.93,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "cab service hubli",
+   "clicks": 16,
+   "cost": 297.7,
+   "conversions": 1.0,
+   "cpa": 297.7,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli car travels",
+   "clicks": 8,
+   "cost": 150.07,
+   "conversions": 1.0,
+   "cpa": 150.07,
+   "cluster": "travels-local"
+  },
+  {
+   "normalized": "hubli travels car",
+   "clicks": 4,
+   "cost": 94.7,
+   "conversions": 1.0,
+   "cpa": 94.7,
+   "cluster": "travels-local"
+  },
+  {
+   "normalized": "hubli car rent",
+   "clicks": 5,
+   "cost": 88.97,
+   "conversions": 1.0,
+   "cpa": 88.97,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli airport taxi service",
+   "clicks": 3,
+   "cost": 61.77,
+   "conversions": 1.0,
+   "cpa": 61.77,
+   "cluster": "airport"
+  },
+  {
+   "normalized": "hubli to belgaum cab",
+   "clicks": 1,
+   "cost": 24.78,
+   "conversions": 1.0,
+   "cpa": 24.78,
+   "cluster": "route-belgaum"
+  },
+  {
+   "normalized": "hubli to bangalore cab price",
+   "clicks": 1,
+   "cost": 19.6,
+   "conversions": 1.0,
+   "cpa": 19.6,
+   "cluster": "route-bangalore"
+  },
+  {
+   "normalized": "force urbania for rent in hubli",
+   "clicks": 4,
+   "cost": 99.83,
+   "conversions": 0.5,
+   "cpa": 199.66,
+   "cluster": "vehicle-force-urbania"
+  },
+  {
+   "normalized": "best taxi service in hubli",
+   "clicks": 10,
+   "cost": 169.41,
+   "conversions": 0.02,
+   "cpa": 8470.5,
+   "cluster": "core-local"
+  }
+ ],
+ "money_by_cvr_min5clicks": [
+  {
+   "normalized": "taxi service in hubli airport",
+   "clicks": 8,
+   "cost": 141.38,
+   "conversions": 2.01,
+   "cvr": 0.2512,
+   "cluster": "airport"
+  },
+  {
+   "normalized": "hubli car rent",
+   "clicks": 5,
+   "cost": 88.97,
+   "conversions": 1.0,
+   "cvr": 0.2,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car for rent hubli",
+   "clicks": 17,
+   "cost": 433.51,
+   "conversions": 3.0,
+   "cvr": 0.1765,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli car travels",
+   "clicks": 8,
+   "cost": 150.07,
+   "conversions": 1.0,
+   "cvr": 0.125,
+   "cluster": "travels-local"
+  },
+  {
+   "normalized": "cab service hubli",
+   "clicks": 16,
+   "cost": 297.7,
+   "conversions": 1.0,
+   "cvr": 0.0625,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rental in hubli",
+   "clicks": 214,
+   "cost": 4820.6,
+   "conversions": 11.65,
+   "cvr": 0.0544,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "taxi service in hubli",
+   "clicks": 102,
+   "cost": 2242.17,
+   "conversions": 5.0,
+   "cvr": 0.049,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rent hubli",
+   "clicks": 42,
+   "cost": 849.15,
+   "conversions": 2.0,
+   "cvr": 0.0476,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli taxi service",
+   "clicks": 27,
+   "cost": 546.15,
+   "conversions": 1.0,
+   "cvr": 0.037,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "cab in hubli",
+   "clicks": 30,
+   "cost": 530.93,
+   "conversions": 1.0,
+   "cvr": 0.0333,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rent car hubli",
+   "clicks": 31,
+   "cost": 632.21,
+   "conversions": 1.0,
+   "cvr": 0.0323,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rent car in hubli",
+   "clicks": 36,
+   "cost": 712.65,
+   "conversions": 1.0,
+   "cvr": 0.0278,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "rental car in hubli",
+   "clicks": 75,
+   "cost": 1386.1,
+   "conversions": 2.0,
+   "cvr": 0.0267,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "car rental hubli",
+   "clicks": 107,
+   "cost": 1951.31,
+   "conversions": 2.0,
+   "cvr": 0.0187,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "hubli car rental",
+   "clicks": 58,
+   "cost": 1038.68,
+   "conversions": 1.0,
+   "cvr": 0.0172,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "cab service in hubli",
+   "clicks": 81,
+   "cost": 1510.35,
+   "conversions": 1.33,
+   "cvr": 0.0164,
+   "cluster": "core-local"
+  },
+  {
+   "normalized": "best taxi service in hubli",
+   "clicks": 10,
+   "cost": 169.41,
+   "conversions": 0.02,
+   "cvr": 0.002,
+   "cluster": "core-local"
+  }
+ ],
+ "self_drive": {
+  "all": {
+   "n": 25,
+   "impr": 291,
+   "clicks": 56,
+   "cost": 838.99,
+   "conv": 0.0
+  }
+ },
+ "vehicle_clusters": {
+  "vehicle-force-urbania": {
+   "n": 4,
+   "impr": 22,
+   "clicks": 4,
+   "cost": 99.83,
+   "conv": 0.5
+  },
+  "vehicle-tempo-traveller": {
+   "n": 19,
+   "impr": 171,
+   "clicks": 15,
+   "cost": 266.95,
+   "conv": 0.0
+  },
+  "vehicle-force-cruiser": {
+   "n": 1,
+   "impr": 18,
+   "clicks": 2,
+   "cost": 39.97,
+   "conv": 0.0
+  },
+  "vehicle-innova": {
+   "n": 12,
+   "impr": 17,
+   "clicks": 1,
+   "cost": 13.51,
+   "conv": 0.0
+  },
+  "vehicle-eeco": {
+   "n": 3,
+   "impr": 4,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-luxury": {
+   "n": 1,
+   "impr": 2,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-suv-(generic)": {
+   "n": 3,
+   "impr": 3,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-sedan-(dzire-etios)": {
+   "n": 5,
+   "impr": 5,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-ertiga": {
+   "n": 6,
+   "impr": 7,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  },
+  "vehicle-innova-crysta": {
+   "n": 1,
+   "impr": 1,
+   "clicks": 0,
+   "cost": 0.0,
+   "conv": 0.0
+  }
+ }
+}

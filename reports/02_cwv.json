@@ -1,0 +1,199 @@
+{
+ "generated": "2026-07-08T12:23:46.996Z",
+ "pages": {
+  "https://trishikacarrentalhubli.in/": {
+   "mobile": {
+    "fetchedAt": "2026-07-08T12:23:46.996Z",
+    "lighthouseVersion": "13.4.0",
+    "scores": {
+     "performance": 0.6,
+     "accessibility": 0.97,
+     "best-practices": 1,
+     "seo": 1
+    },
+    "metrics": {
+     "largest-contentful-paint": {
+      "value": 5733.222,
+      "display": "5.7\u00a0s"
+     },
+     "first-contentful-paint": {
+      "value": 3805.5305,
+      "display": "3.8\u00a0s"
+     },
+     "total-blocking-time": {
+      "value": 278,
+      "display": "280\u00a0ms"
+     },
+     "cumulative-layout-shift": {
+      "value": 0.00457326982187687,
+      "display": "0.005"
+     },
+     "speed-index": {
+      "value": 6389.570486003195,
+      "display": "6.4\u00a0s"
+     },
+     "interactive": {
+      "value": 5733.222,
+      "display": "5.7\u00a0s"
+     },
+     "server-response-time": {
+      "value": 80,
+      "display": "Root document took 80\u00a0ms"
+     }
+    },
+    "opportunities": {
+     "total-byte-weight": {
+      "score": 0.5,
+      "display": "Total size was 9,803\u00a0KiB",
+      "savingsMs": null,
+      "savingsBytes": null,
+      "items": [
+       {
+        "url": "https://trishikacarrentalhubli.in/images/hero-mobile.mp4",
+        "totalBytes": 5004970
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/Fleet%20Gallery/WhatsApp%20Image%202026-03-01%20at%2020.34.58.jpeg",
+        "totalBytes": 1364441
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/tempo.png",
+        "totalBytes": 501947
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/sedan.png",
+        "totalBytes": 483684
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/ertiga.png",
+        "totalBytes": 477370
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/innova.png",
+        "totalBytes": 465238
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/Fleet%20Gallery/tempo.jpeg",
+        "totalBytes": 249178
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/Fleet%20Gallery/WhatsApp%20Image%202026-03-01%20at%2020.35.18.jpeg",
+        "totalBytes": 225125
+       }
+      ]
+     },
+     "unminified-css": {
+      "score": 1,
+      "display": "",
+      "savingsMs": 0,
+      "savingsBytes": 0,
+      "items": []
+     },
+     "unminified-javascript": {
+      "score": 1,
+      "display": "",
+      "savingsMs": 0,
+      "savingsBytes": 0,
+      "items": []
+     }
+    }
+   },
+   "desktop": {
+    "fetchedAt": "2026-07-08T12:26:58.596Z",
+    "lighthouseVersion": "13.4.0",
+    "scores": {
+     "performance": 0.64,
+     "accessibility": 0.97,
+     "best-practices": 1,
+     "seo": 1
+    },
+    "metrics": {
+     "largest-contentful-paint": {
+      "value": 4178.674000000001,
+      "display": "4.2\u00a0s"
+     },
+     "first-contentful-paint": {
+      "value": 1908.429,
+      "display": "1.9\u00a0s"
+     },
+     "total-blocking-time": {
+      "value": 43,
+      "display": "40\u00a0ms"
+     },
+     "cumulative-layout-shift": {
+      "value": 0.01073512825612304,
+      "display": "0.011"
+     },
+     "speed-index": {
+      "value": 3281.5399932017053,
+      "display": "3.3\u00a0s"
+     },
+     "interactive": {
+      "value": 4178.674000000001,
+      "display": "4.2\u00a0s"
+     },
+     "server-response-time": {
+      "value": 54,
+      "display": "Root document took 50\u00a0ms"
+     }
+    },
+    "opportunities": {
+     "total-byte-weight": {
+      "score": 0.5,
+      "display": "Total size was 12,625\u00a0KiB",
+      "savingsMs": null,
+      "savingsBytes": null,
+      "items": [
+       {
+        "url": "https://trishikacarrentalhubli.in/images/hero-mobile.mp4",
+        "totalBytes": 5004970
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/hero-bg.png",
+        "totalBytes": 2586218
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/Fleet%20Gallery/WhatsApp%20Image%202026-03-01%20at%2020.34.58.jpeg",
+        "totalBytes": 1364857
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/tempo.png",
+        "totalBytes": 502096
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/minibus.png",
+        "totalBytes": 500137
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/sedan.png",
+        "totalBytes": 483773
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/ertiga.png",
+        "totalBytes": 477515
+       },
+       {
+        "url": "https://trishikacarrentalhubli.in/images/innova.png",
+        "totalBytes": 465338
+       }
+      ]
+     },
+     "unminified-css": {
+      "score": 1,
+      "display": "",
+      "savingsMs": 0,
+      "savingsBytes": 0,
+      "items": []
+     },
+     "unminified-javascript": {
+      "score": 1,
+      "display": "",
+      "savingsMs": 0,
+      "savingsBytes": 0,
+      "items": []
+     }
+    }
+   }
+  }
+ }
+}

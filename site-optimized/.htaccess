@@ -1,0 +1,57 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# ===== Redirect old WordPress pages to homepage =====
+RewriteRule ^contact/?$ / [R=301,L]
+RewriteRule ^our-fleet/?$ / [R=301,L]
+RewriteRule ^rate-card/?$ /fare/hubli-taxi-fare/ [R=301,L]
+RewriteRule ^author/.*$ / [R=301,L]
+
+# ===== Block WordPress system URLs =====
+RewriteRule ^wp-admin/?$ / [R=301,L]
+RewriteRule ^wp-login\.php$ / [R=301,L]
+RewriteRule ^wp-content/.*$ / [R=301,L]
+RewriteRule ^wp-includes/.*$ / [R=301,L]
+RewriteRule ^xmlrpc\.php$ / [R=301,L]
+RewriteRule ^readme\.html$ / [R=301,L]
+RewriteRule ^license\.txt$ / [R=301,L]
+
+# ===== Canonical host: force HTTPS + non-www =====
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# ===== Custom 404 =====
+ErrorDocument 404 /404.html
+
+# ===== Gzip Compression =====
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ===== Browser Caching =====
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 1 day"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType application/pdf "access plus 1 month"
+</IfModule>
+
+# ===== Security Headers =====
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

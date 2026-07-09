@@ -1,0 +1,15 @@
+import urllib.request, ssl
+ctx = ssl.create_default_context()
+def body(u):
+    req = urllib.request.Request(u, headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache','Pragma':'no-cache'})
+    return urllib.request.urlopen(req, timeout=20, context=ctx).read().decode('utf-8','ignore')
+h = body('https://trishikacarrentalhubli.in/?v=3')
+print('hero rating pill class:', 'hero-rating' in h)
+print('58 Google reviews text:', '58 Google reviews' in h)
+print('H1 has Rental span:', '<span class="hot">Rental</span>' in h)
+print('Vehicle optional label:', '(optional)' in h)
+print('Date still required (should be False):', 'id="fDate" required' in h)
+c = body('https://trishikacarrentalhubli.in/style.css?v=3')
+print('css .hero-rating rule:', '.hero-rating' in c)
+j = body('https://trishikacarrentalhubli.in/script.js?v=3')
+print('js 4-field validation:', 'name, phone, pickup and drop' in j)

@@ -1,0 +1,726 @@
+search_term,normalized,impressions,clicks,cost,conversions,conv_value,ctr,cpc,cvr,cpa,intent,modifier_type,cluster,route,serp_intent_match,action
+car rental in hubli | car rentals in hubli,car rental in hubli,2720,214,4820.6,11.65,,0.0787,22.53,0.0544,413.79,transactional,none,core-local,,/ (homepage),scale-paid
+taxi service in hubli | taxi services in hubli,taxi service in hubli,2423,102,2242.17,5.0,,0.0421,21.98,0.049,448.43,transactional,none,core-local,,/ (homepage),scale-paid
+car for rent hubli,car for rent hubli,97,17,433.51,3.0,,0.1753,25.5,0.1765,144.5,transactional,none,core-local,,/ (homepage),scale-paid
+tt travels in hubli,tt travels in hubli,24,2,39.88,2.5,,0.0833,19.94,1.25,15.95,navigational,brand,competitor,,NONE (paid-only decision),scale-paid
+taxi service in hubli airport,taxi service in hubli airport,144,8,141.38,2.01,,0.0556,17.67,0.2512,70.34,transactional,service,airport,,MISSING PAGE -> /services/airport-taxi-hubli/,both
+car rental hubli | car rentals hubli,car rental hubli,883,107,1951.31,2.0,,0.1212,18.24,0.0187,975.65,transactional,none,core-local,,/ (homepage),scale-paid
+rental car in hubli | rental cars in hubli,rental car in hubli,537,75,1386.1,2.0,,0.1397,18.48,0.0267,693.05,transactional,none,core-local,,/ (homepage),scale-paid
+car rent hubli,car rent hubli,316,42,849.15,2.0,,0.1329,20.22,0.0476,424.58,transactional,none,core-local,,/ (homepage),scale-paid
+cab service in hubli | cab services in hubli,cab service in hubli,2157,81,1510.35,1.33,,0.0376,18.65,0.0164,1135.6,transactional,none,core-local,,/ (homepage),scale-paid
+hubli car rental | hubli car rentals,hubli car rental,612,58,1038.68,1.0,,0.0948,17.91,0.0172,1038.68,transactional,none,core-local,,/ (homepage),scale-paid
+rent car in hubli | rent cars in hubli,rent car in hubli,170,36,712.65,1.0,,0.2118,19.8,0.0278,712.65,transactional,none,core-local,,/ (homepage),scale-paid
+rent car hubli,rent car hubli,248,31,632.21,1.0,,0.125,20.39,0.0323,632.21,transactional,none,core-local,,/ (homepage),scale-paid
+hubli taxi service | hubli taxi services,hubli taxi service,524,27,546.15,1.0,,0.0515,20.23,0.037,546.15,transactional,none,core-local,,/ (homepage),scale-paid
+cab in hubli | cabs in hubli,cab in hubli,379,30,530.93,1.0,,0.0792,17.7,0.0333,530.93,transactional,none,core-local,,/ (homepage),scale-paid
+cab service hubli,cab service hubli,275,16,297.7,1.0,,0.0582,18.61,0.0625,297.7,transactional,none,core-local,,/ (homepage),scale-paid
+hubli car travels,hubli car travels,34,8,150.07,1.0,,0.2353,18.76,0.125,150.07,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli travels car,hubli travels car,42,4,94.7,1.0,,0.0952,23.68,0.25,94.7,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli car rent,hubli car rent,43,5,88.97,1.0,,0.1163,17.79,0.2,88.97,transactional,none,core-local,,/ (homepage),scale-paid
+hubli airport taxi service,hubli airport taxi service,33,3,61.77,1.0,,0.0909,20.59,0.3333,61.77,transactional,service,airport,,MISSING PAGE -> /services/airport-taxi-hubli/,both
+hubli to belgaum cab,hubli to belgaum cab,3,1,24.78,1.0,,0.3333,24.78,1.0,24.78,transactional,geo,route-belgaum,hubli->belgaum,MISSING PAGE -> /routes/hubli-to-belgaum-taxi/,both
+hubli to bangalore cab price,hubli to bangalore cab price,6,1,19.6,1.0,,0.1667,19.6,1.0,19.6,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,both
+force urbania for rent in hubli,force urbania for rent in hubli,19,4,99.83,0.5,,0.2105,24.96,0.125,199.66,transactional,vehicle,vehicle-force-urbania,,MISSING PAGE -> /vehicles/force-urbania-hubli/,both
+best taxi service in hubli,best taxi service in hubli,231,10,169.41,0.02,,0.0433,16.94,0.002,8470.5,transactional,none,core-local,,/ (homepage),scale-paid
+rental car hubli | rental cars hubli,rental car hubli,249,38,780.39,0.0,,0.1526,20.54,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car for rent in hubli | cars for rent in hubli,car for rent in hubli,125,24,452.18,0.0,,0.192,18.84,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rental in hubli with driver,car rental in hubli with driver,166,23,434.25,0.0,,0.1386,18.88,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli rental cars,hubli rental car,108,17,357.76,0.0,,0.1574,21.04,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car booking hubli,car booking hubli,94,13,330.82,0.0,,0.1383,25.45,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car travels in hubli,car travels in hubli,146,12,292.99,0.0,,0.0822,24.42,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+rent a car hubli,rent a car hubli,109,15,287.0,0.0,,0.1376,19.13,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rent in hubli,car rent in hubli,139,16,277.47,0.0,,0.1151,17.34,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+rapido in hubli,rapido in hubli,455,12,233.31,0.0,,0.0264,19.44,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+cab booking hubli,cab booking hubli,108,11,230.19,0.0,,0.1019,20.93,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+taxi in hubli,taxi in hubli,294,11,220.37,0.0,,0.0374,20.03,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+taxi service hubli,taxi service hubli,301,12,217.42,0.0,,0.0399,18.12,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli cab service | hubli cab services,hubli cab service,256,13,210.09,0.0,,0.0508,16.16,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+best car rental in hubli,best car rental in hubli,256,12,208.0,0.0,,0.0469,17.33,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+rent a car in hubli,rent a car in hubli,34,12,201.65,0.0,,0.3529,16.8,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+rapido hubli,rapido hubli,103,8,180.91,0.0,,0.0777,22.61,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rental cars in hubli without driver,rental car in hubli without driver,37,8,162.05,0.0,,0.2162,20.26,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+hubli car rental service,hubli car rental service,93,7,156.48,0.0,,0.0753,22.35,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rental with driver,car rental with driver,2,1,145.29,0.0,,0.5,145.29,0.0,0,transactional,none,core-generic,,/ (homepage),ignore
+car rental in dharwad | car rentals in dharwad,car rental in dharwad,49,7,142.42,0.0,,0.1429,20.35,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+zoom car in hubli,zoom car in hubli,15,6,138.64,0.0,,0.4,23.11,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+cab booking in hubli,cab booking in hubli,74,5,125.33,0.0,,0.0676,25.07,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rental hubli without driver,car rental hubli without driver,28,5,116.64,0.0,,0.1786,23.33,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+self driven cars in hubli,self driven car in hubli,25,5,113.49,0.0,,0.2,22.7,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+car on rent in hubli,car on rent in hubli,40,6,111.2,0.0,,0.15,18.53,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli taxi service rates,hubli taxi service rates,29,4,109.34,0.0,,0.1379,27.34,0.0,0,transactional,price,core-local,,/ (homepage),scale-paid
+hubli rent car,hubli rent car,32,5,105.48,0.0,,0.1562,21.1,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rental in hubli without driver,car rental in hubli without driver,25,6,100.85,0.0,,0.24,16.81,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+cab booking | cabs booking,cab booking,33,1,97.47,0.0,,0.0303,97.47,0.0,0,transactional,none,core-generic,,/ (homepage),ignore
+cabs hubli,cab hubli,170,5,97.25,0.0,,0.0294,19.45,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+self drive car in hubli | self drive cars in hubli,self drive car in hubli,52,7,95.84,0.0,,0.1346,13.69,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+tempo traveller rent in hubli,tempo traveller rent in hubli,34,5,89.89,0.0,,0.1471,17.98,0.0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,both
+car rental in hubli dharwad,car rental in hubli dharwad,13,4,89.02,0.0,,0.3077,22.25,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+taxi hubli,taxi hubli,82,5,89.02,0.0,,0.061,17.8,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rental rishikesh,car rental rishikesh,1,1,84.53,0.0,,1.0,84.53,0.0,0,irrelevant,geo,wrong-geo,,NONE,negative-keyword
+hubli to gokarna,hubli to gokarna,4,2,81.54,0.0,,0.5,40.77,0.0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,both
+khushi travels hubli,khushi travels hubli,24,3,80.31,0.0,,0.125,26.77,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+zoom car hubli,zoom car hubli,28,4,79.1,0.0,,0.1429,19.77,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+self car rental in hubli,self car rental in hubli,49,6,78.5,0.0,,0.1224,13.08,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+hubli car | hubli cars,hubli car,42,3,76.0,0.0,,0.0714,25.33,0.0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli cabs best cab service in hubli best taxi service in hubli dharwad,hubli cab best cab service in hubli best taxi service in hubli dharwad,53,1,75.98,0.0,,0.0189,75.98,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rental hubli price,car rental hubli price,50,3,72.09,0.0,,0.06,24.03,0.0,0,transactional,price,core-local,,/ (homepage),scale-paid
+tempo traveller rent per km in hubli,tempo traveller rent per km in hubli,42,4,71.42,0.0,,0.0952,17.86,0.0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,both
+trishika car rental hubli,trishika car rental hubli,26,6,71.13,0.0,,0.2308,11.86,0.0,0,navigational,brand,brand-own,,/ (homepage),scale-paid
+rapido book,rapido book,12,2,58.35,0.0,,0.1667,29.18,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli cab | hubli cabs,hubli cab,157,2,48.73,0.0,,0.0127,24.36,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli self driven car,hubli self driven car,4,1,48.11,0.0,,0.25,48.11,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+tempo traveller in hubli,tempo traveller in hubli,45,2,46.56,0.0,,0.0444,23.28,0.0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,both
+taxi in hubli for outstation,taxi in hubli for outstation,34,3,44.76,0.0,,0.0882,14.92,0.0,0,transactional,service,outstation,,MISSING PAGE -> /services/outstation-cabs-hubli/,both
+guwahati to tezpur car fare,guwahati to tezpur car fare,1,1,44.75,0.0,,1.0,44.75,0.0,0,informational,price,price-generic,guwahati->tezpur,MISSING PAGE -> /fare/hubli-taxi-fare/,negative-keyword
+rapido cab,rapido cab,5,1,44.66,0.0,,0.2,44.66,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to goa cab service,hubli to goa cab service,10,2,44.39,0.0,,0.2,22.2,0.0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,both
+ola cab app,ola cab app,1,1,44.25,0.0,,1.0,44.25,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+teksi online,teksi online,1,1,43.65,0.0,,1.0,43.65,0.0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+taxi fare from katra to jammu railway station,taxi fare from katra to jammu railway station,1,1,43.52,0.0,,1.0,43.52,0.0,0,transactional,service,railway,katra->jammu,MISSING PAGE -> /services/local-taxi-hubli/,both
+rent a car in hubli with driver,rent a car in hubli with driver,22,2,43.38,0.0,,0.0909,21.69,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli to goa car,hubli to goa car,9,2,42.21,0.0,,0.2222,21.11,0.0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,both
+hubli cabs tours and travels,hubli cab tours and travels,16,2,40.76,0.0,,0.125,20.38,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+cruiser rent in hubli,cruiser rent in hubli,18,2,39.97,0.0,,0.1111,19.98,0.0,0,transactional,vehicle,vehicle-force-cruiser,,MISSING PAGE -> /vehicles/force-cruiser-hubli/,both
+namma yatri in hubli,namma yatri in hubli,49,2,39.71,0.0,,0.0408,19.86,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to goa taxi,hubli to goa taxi,15,2,39.61,0.0,,0.1333,19.8,0.0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,both
+nikhil travels hubli,nikhil travels hubli,5,2,39.58,0.0,,0.4,19.79,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to goa cab fare,hubli to goa cab fare,12,2,39.36,0.0,,0.1667,19.68,0.0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,both
+hubli to bangalore car rental,hubli to bangalore car rental,8,2,38.8,0.0,,0.25,19.4,0.0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,both
+rental cars in hubli without driver price,rental car in hubli without driver price,7,2,37.83,0.0,,0.2857,18.91,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+travels in hubli,travels in hubli,83,6,37.43,0.0,,0.0723,6.24,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli car service,hubli car service,9,2,37.03,0.0,,0.2222,18.52,0.0,0,irrelevant,none,auto-repair,,NONE,negative-keyword
+taxi near me | taxis near me,taxi near me,14,3,35.95,0.0,,0.2143,11.98,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli to dandeli cab price,hubli to dandeli cab price,8,2,33.82,0.0,,0.25,16.91,0.0,0,transactional,geo,route-dandeli,hubli->dandeli,MISSING PAGE -> /routes/hubli-to-dandeli-taxi/,both
+red taxi,red taxi,16,3,32.91,0.0,,0.1875,10.97,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli taxi booking,hubli taxi booking,12,2,32.1,0.0,,0.1667,16.05,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rental dharwad,car rental dharwad,23,2,30.94,0.0,,0.087,15.47,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+traveller rent,traveller rent,1,1,28.47,0.0,,1.0,28.47,0.0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,both
+online car booking,online car booking,3,2,26.88,0.0,,0.6667,13.44,0.0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli to bangalore cab,hubli to bangalore cab,4,1,26.51,0.0,,0.25,26.51,0.0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,both
+hubli to dandeli taxi,hubli to dandeli taxi,4,2,25.38,0.0,,0.5,12.69,0.0,0,transactional,geo,route-dandeli,hubli->dandeli,MISSING PAGE -> /routes/hubli-to-dandeli-taxi/,both
+self rental cars in hubli,self rental car in hubli,7,1,24.96,0.0,,0.1429,24.96,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+hubli dharwad cabs best cab service in hubli hubli car rental service best taxi service in hubli,hubli dharwad cab best cab service in hubli hubli car rental service best taxi service in hubli,25,1,24.93,0.0,,0.04,24.93,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+book cab in hubli,book cab in hubli,6,1,24.89,0.0,,0.1667,24.89,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+suman cabs pvt ltd,suman cab pvt ltd,1,1,24.88,0.0,,1.0,24.88,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi from bangalore to hubli,taxi from bangalore to hubli,2,1,24.83,0.0,,0.5,24.83,0.0,0,transactional,geo,route-into-hubli-bangalore,bangalore->hubli,MISSING PAGE -> route page (reverse direction),both
+hubli local taxi service,hubli local taxi service,19,1,24.74,0.0,,0.0526,24.74,0.0,0,transactional,service,local-package,,MISSING PAGE -> /services/local-taxi-hubli/,both
+car in hubli,car in hubli,3,1,24.72,0.0,,0.3333,24.72,0.0,0,informational,geo,misc-local,,/ (homepage),ignore
+self driven car rental in hubli,self driven car rental in hubli,3,1,23.47,0.0,,0.3333,23.47,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+hubli to bangalore taxi service,hubli to bangalore taxi service,2,1,23.38,0.0,,0.5,23.38,0.0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,both
+hubli taxi,hubli taxi,24,1,22.62,0.0,,0.0417,22.62,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car service in hubli,car service in hubli,15,1,21.89,0.0,,0.0667,21.89,0.0,0,irrelevant,none,auto-repair,,NONE,negative-keyword
+self drive car hubli | self drive cars hubli,self drive car hubli,13,5,20.84,0.0,,0.3846,4.17,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+swadeshi car rental hubli,swadeshi car rental hubli,5,1,19.97,0.0,,0.2,19.97,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+bangalore to hubli taxi fare,bangalore to hubli taxi fare,6,1,19.97,0.0,,0.1667,19.97,0.0,0,transactional,geo,route-into-hubli-bangalore,bangalore->hubli,MISSING PAGE -> route page (reverse direction),both
+hubli to goa taxi price,hubli to goa taxi price,10,1,19.9,0.0,,0.1,19.9,0.0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,both
+urban car hubli,urban car hubli,2,1,19.83,0.0,,0.5,19.83,0.0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli car rental with driver,hubli car rental with driver,19,1,19.81,0.0,,0.0526,19.81,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+taxi from hubli to goa,taxi from hubli to goa,6,1,19.72,0.0,,0.1667,19.72,0.0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,both
+hubli to dandeli car rental,hubli to dandeli car rental,9,1,19.7,0.0,,0.1111,19.7,0.0,0,transactional,geo,route-dandeli,hubli->dandeli,MISSING PAGE -> /routes/hubli-to-dandeli-taxi/,both
+car hire hubli,car hire hubli,6,1,19.69,0.0,,0.1667,19.69,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli tempo traveller,hubli tempo traveller,6,1,19.53,0.0,,0.1667,19.53,0.0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,both
+shashi cabs hubballi | shashi cabs hubli,shashi cab hubli,33,1,19.52,0.0,,0.0303,19.52,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli airport taxi,hubli airport taxi,20,1,19.46,0.0,,0.05,19.46,0.0,0,transactional,service,airport,,MISSING PAGE -> /services/airport-taxi-hubli/,both
+hubli rapido,hubli rapido,25,1,19.38,0.0,,0.04,19.38,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+bhagya travels hubli,bhagya travels hubli,6,1,19.33,0.0,,0.1667,19.33,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tirupati cabs hubli,tirupati cab hubli,11,1,19.32,0.0,,0.0909,19.32,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi service in dharwad,taxi service in dharwad,5,1,19.3,0.0,,0.2,19.3,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli to goa cab | hubli to goa cabs,hubli to goa cab,15,1,16.76,0.0,,0.0667,16.76,0.0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,both
+car service hubli,car service hubli,11,1,16.61,0.0,,0.0909,16.61,0.0,0,irrelevant,none,auto-repair,,NONE,negative-keyword
+hassan cab service,hassan cab service,5,2,16.54,0.0,,0.4,8.27,0.0,0,irrelevant,geo,wrong-geo,,NONE,negative-keyword
+car rental near me | car rentals near me,car rental near me,31,6,13.69,0.0,,0.1935,2.28,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car booking,car booking,11,1,13.53,0.0,,0.0909,13.53,0.0,0,transactional,none,core-generic,,/ (homepage),ignore
+innova taxi price,innova taxi price,1,1,13.51,0.0,,1.0,13.51,0.0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,both
+full day rental car,full day rental car,1,1,13.5,0.0,,1.0,13.5,0.0,0,transactional,service,local-package,,MISSING PAGE -> /services/local-taxi-hubli/,both
+cabe book,cabe book,2,1,13.48,0.0,,0.5,13.48,0.0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+rido cabs,rido cab,1,1,13.34,0.0,,1.0,13.34,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+best cab service in hubli,best cab service in hubli,54,1,13.21,0.0,,0.0185,13.21,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+ola book,ola book,3,1,9.76,0.0,,0.3333,9.76,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola auto,ola auto,5,1,9.7,0.0,,0.2,9.7,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+traveller booking,traveller booking,1,1,9.65,0.0,,1.0,9.65,0.0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,both
+how to book cab,how to book cab,1,1,9.55,0.0,,1.0,9.55,0.0,0,transactional,none,core-generic,how->book,/ (homepage),ignore
+rental car near me | rental cars near me,rental car near me,11,1,7.55,0.0,,0.0909,7.55,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+7 seater cars booking,7 seater car booking,1,1,7.1,0.0,,1.0,7.1,0.0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli tour and travels,hubli tour and travels,1,1,6.96,0.0,,1.0,6.96,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli self drive car rental,hubli self drive car rental,9,3,5.51,0.0,,0.3333,1.84,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+hubli self drive car rental prices,hubli self drive car rental prices,4,1,5.36,0.0,,0.25,5.36,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+hubballi travels | hubli travels,hubli travels,7,2,5.06,0.0,,0.2857,2.53,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+tours and travels hubli,tours and travels hubli,5,1,3.87,0.0,,0.2,3.87,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli second hand car,hubli second hand car,2,1,3.81,0.0,,0.5,3.81,0.0,0,job-seeker,none,job-irrelevant,,NONE,negative-keyword
+self drive rental cars in hubli,self drive rental car in hubli,4,3,3.44,0.0,,0.75,1.15,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+cab near me near me,cab near me near me,1,1,3.17,0.0,,1.0,3.17,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+nearby taxi service,nearby taxi service,4,1,2.1,0.0,,0.25,2.1,0.0,0,transactional,none,core-generic,,/ (homepage),ignore
+tours and travels near me,tours and travels near me,3,1,2.1,0.0,,0.3333,2.1,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+nearest cab service near me,nearest cab service near me,2,1,1.93,0.0,,0.5,1.93,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli travel,hubli travel,2,1,1.7,0.0,,0.5,1.7,0.0,0,informational,geo,misc-local,,/ (homepage),ignore
+rental vehicles near me,rental vehicles near me,4,1,1.66,0.0,,0.25,1.66,0.0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+tempo for rent,tempo for rent,1,1,1.43,0.0,,1.0,1.43,0.0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,both
+self drive car rental in hubli,self drive car rental in hubli,2,1,1.22,0.0,,0.5,1.22,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+sujata complex ganesh travels hubli,sujata complex ganesh travels hubli,12,1,1.09,0.0,,0.0833,1.09,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+cab near me now near me,cab near me now near me,1,1,1.02,0.0,,1.0,1.02,0.0,0,transactional,time,core-local,,/ (homepage),scale-paid
+car travels near me,car travels near me,4,1,1.01,0.0,,0.25,1.01,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli car rental self drive,hubli car rental self drive,5,1,0.88,0.0,,0.2,0.88,0.0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+travels near me,travels near me,15,1,0.82,0.0,,0.0667,0.82,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+car rent office near me,car rent office near me,1,1,0.81,0.0,,1.0,0.81,0.0,0,transactional,service,corporate,,MISSING PAGE -> /services/corporate-cab-hubli/,both
+travels in hubli dharwad,travels in hubli dharwad,7,1,0.69,0.0,,0.1429,0.69,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+rental car shop near me,rental car shop near me,4,2,0.68,0.0,,0.5,0.34,0.0,0,transactional,none,core-local,,/ (homepage),scale-paid
+tours travels near me,tours travels near me,2,1,0.63,0.0,,0.5,0.63,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+rental cars,rental car,1,1,0.59,0.0,,1.0,0.59,0.0,0,transactional,none,core-generic,,/ (homepage),ignore
+nakoda travels hubli,nakoda travels hubli,5,1,0.56,0.0,,0.2,0.56,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+ganesh travels opp basava vana hubli,ganesh travels opp basava vana hubli,2,1,0.49,0.0,,0.5,0.49,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+vrl hubli,vrl hubli,1,1,0.42,0.0,,1.0,0.42,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli by road,hubli by road,1,1,0.42,0.0,,1.0,0.42,0.0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli station,hubli station,1,1,0.39,0.0,,1.0,0.39,0.0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli how many kilometre,hubli how many kilometre,1,1,0.36,0.0,,1.0,0.36,0.0,0,informational,geo,misc-local,,/ (homepage),ignore
+shakti automobiles hubli,shakti automobiles hubli,6,1,0.34,0.0,,0.1667,0.34,0.0,0,informational,geo,misc-local,,/ (homepage),ignore
+vrl travels hubli,vrl travels hubli,1,1,0.34,0.0,,1.0,0.34,0.0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+nearby travels,nearby travels,11,1,0.34,0.0,,0.0909,0.34,0.0,0,transactional,service,travels-generic,,/ (homepage),ignore
+car rental 24 7,car rental 24 7,1,1,0.34,0.0,,1.0,0.34,0.0,0,transactional,none,core-generic,,/ (homepage),ignore
+travels in dharwad,travels in dharwad,2,1,0.17,0.0,,0.5,0.17,0.0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+sai cabs hubli taxi service in hubli,sai cab hubli taxi service in hubli,4,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to kapda,hubli to kapda,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-kapda,hubli->kapda,MISSING PAGE -> /routes/hubli-to-kapda-taxi/,build-organic-page
+bharath taxi,bharath taxi,4,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+zoom car rentals,zoom car rental,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+best travel agency in hubli,best travel agency in hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli car rental outstation,hubli car rental outstation,20,0,0.0,0.0,,0.0,0,0,0,transactional,service,outstation,,MISSING PAGE -> /services/outstation-cabs-hubli/,build-organic-page
+hubli to gokarna cab price,hubli to gokarna cab price,6,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,build-organic-page
+shiva cabs hubli,shiva cab hubli,10,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+dharwad to hubli airport taxi,dharwad to hubli airport taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,dharwad->airport,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+self drive car rental hubli,self drive car rental hubli,3,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+online cab booking,online cab booking,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+rapido service in hubli,rapido service in hubli,6,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+namma yatri available in hubli,namma yatri available in hubli,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tourist cars near me,tourist car near me,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+self drive cars in hubli dharwad,self drive car in hubli dharwad,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+tour and travels in hubli,tour and travels in hubli,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+airport near me,airport near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+eeco car rent per km,eeco car rent per km,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-eeco,,MISSING PAGE -> /vehicles/eeco-hubli/,build-organic-page
+bila bila cab,bila bila cab,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to belgaum taxi,hubli to belgaum taxi,5,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-belgaum,hubli->belgaum,MISSING PAGE -> /routes/hubli-to-belgaum-taxi/,build-organic-page
+hubli to goa car rental price,hubli to goa car rental price,19,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,build-organic-page
+top rated taxi,top rated taxi,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+automobiles hubli,automobiles hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli to dandeli cab,hubli to dandeli cab,7,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-dandeli,hubli->dandeli,MISSING PAGE -> /routes/hubli-to-dandeli-taxi/,build-organic-page
+innova rent per km in hubli,innova rent per km in hubli,4,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+online taxi service near me,online taxi service near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+best car service in hubli,best car service in hubli,12,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,auto-repair,,NONE,negative-keyword
+ats cab,ats cab,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+bharat taxi app,bharat taxi app,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to murudeshwar cab fare,hubli to murudeshwar cab fare,4,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-murudeshwar,hubli->murudeshwar,MISSING PAGE -> /routes/hubli-to-murudeshwar-taxi/,build-organic-page
+taxi rates in hubli,taxi rates in hubli,21,0,0.0,0.0,,0.0,0,0,0,transactional,price,core-local,,/ (homepage),scale-paid
+rapido auto online booking,rapido auto online booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+online taxi booking number,online taxi booking number,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+outstation taxi booking,outstation taxi booking,2,0,0.0,0.0,,0.0,0,0,0,transactional,service,outstation,,MISSING PAGE -> /services/outstation-cabs-hubli/,build-organic-page
+car drivers in hubli,car drivers in hubli,7,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+taxi price,taxi price,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+any cab service near me,any cab service near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+www taxisafar com,www taxisafar com,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola kaise book kare,ola kaise book kare,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+luxury cars for rent in hubli,luxury car for rent in hubli,2,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-luxury,,MISSING PAGE -> /vehicles/luxury-hubli/,build-organic-page
+uber cabs,uber cab,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+bangalore to hubli,bangalore to hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-bangalore,bangalore->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+maruti eeco rent,maruti eeco rent,2,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-eeco,,MISSING PAGE -> /vehicles/eeco-hubli/,build-organic-page
+cab charges per km,cab charges per km,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+dharwad near places,dharwad near places,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+olabook,olabook,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli airport to dharwad taxi charges,hubli airport to dharwad taxi charges,9,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,airport->dharwad,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+hubli to gokarna cab fare,hubli to gokarna cab fare,4,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,build-organic-page
+blusmart cab booking,blusmart cab booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+inter city cab,inter city cab,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+bala bala taxi,bala bala taxi,6,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi group,taxi group,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+ola taxi,ola taxi,5,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli taxi rental,hubli taxi rental,6,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+bharat taxi,bharat taxi,12,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+auto booking near me,auto booking near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hubli se bengaluru,hubli se bangalore,2,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+manikanta cabs hubli,manikanta cab hubli,17,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+ola cabs online booking,ola cab online booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+p&p travels dharwad,p p travels dharwad,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+gadi book,gadi book,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+ola dehradun,ola dehradun,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to dandeli,hubli to dandeli,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-dandeli,hubli->dandeli,MISSING PAGE -> /routes/hubli-to-dandeli-taxi/,build-organic-page
+car travel agency near me,car travel agency near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+k k travels,k k travels,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,travels-generic,,/ (homepage),ignore
+hubli to udupi,hubli to udupi,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-udupi,hubli->udupi,MISSING PAGE -> /routes/hubli-to-udupi-taxi/,build-organic-page
+car by rent,car by rent,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+tavera booking,tavera booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-suv-(generic),,MISSING PAGE -> /vehicles/suv-(generic)-hubli/,build-organic-page
+balaji cabs in,balaji cab in,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+intercity cab service,intercity cab service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+book car on rent,book car on rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+ballia cab service,ballia cab service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+tirupati cabs hubballi dharwad | tirupati cabs hubli dharwad,tirupati cab hubli dharwad,24,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tourister van booking,tourister van booking,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hubli second hand car showroom yellow board,hubli second hand car showroom yellow board,1,0,0.0,0.0,,0.0,0,0,0,job-seeker,none,job-irrelevant,,NONE,negative-keyword
+savaari car rentals,savaari car rental,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli dharwad cabs,hubli dharwad cab,36,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+rent tempo traveller near me,rent tempo traveller near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+swift dzire rent per km rate,swift dzire rent per km rate,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-sedan-(dzire-etios),,MISSING PAGE -> /vehicles/sedan-(dzire-etios)-hubli/,build-organic-page
+rental cars and bikes near me,rental car and bikes near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+bangalore to hubli by car,bangalore to hubli by car,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-bangalore,bangalore->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+taxi number,taxi number,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+khatu shyam taxi service,khatu shyam taxi service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car rental near me open now,car rental near me open now,1,0,0.0,0.0,,0.0,0,0,0,transactional,time,core-local,,/ (homepage),scale-paid
+cab fare,cab fare,2,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+second hand cars in hubli dharwad,second hand car in hubli dharwad,1,0,0.0,0.0,,0.0,0,0,0,job-seeker,none,job-irrelevant,,NONE,negative-keyword
+car on rent | cars on rent,car on rent,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car taxi service near me,car taxi service near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+online rapido booking,online rapido booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tt vehicle,tt vehicle,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hubli to gokarna cab,hubli to gokarna cab,5,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,build-organic-page
+airavat cab hubballi,airavat cab hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+near by car rentals,near by car rental,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+cab service,cab service,8,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+swift dzire rental price,swift dzire rental price,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-sedan-(dzire-etios),,MISSING PAGE -> /vehicles/sedan-(dzire-etios)-hubli/,build-organic-page
+online cab booking app,online cab booking app,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+best travels in hubli,best travels in hubli,6,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+taxi,taxi,8,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli to gokarna car rental,hubli to gokarna car rental,4,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,build-organic-page
+tourist car for rent,tourist car for rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+ertiga travel,ertiga travel,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-ertiga,,MISSING PAGE -> /vehicles/ertiga-hubli/,build-organic-page
+near me taxi service,near me taxi service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+taxi in dharwad,taxi in dharwad,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+is rapido available in hubli,is rapido available in hubli,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli car hire,hubli car hire,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+goa to hubli taxi,goa to hubli taxi,6,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-goa,goa->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+toofan car 14 seater rent price,toofan car 14 seater rent price,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+ola cab price for 20 km,ola cab price for 20 km,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi service,taxi service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+red taxi rate per km,red taxi rate per km,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tt travels,tt travels,3,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi dharwad,taxi dharwad,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+travels car near me,travels car near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+fastrack cabs,fastrack cab,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+uber booking,uber booking,8,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+one way cab,one way cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+innova rent per km,innova rent per km,3,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+कैब कैसे बुक करें,क ब क स ब क कर,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+auto rapido,auto rapido,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola cab rental,ola cab rental,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+car hire in hubli,car hire in hubli,12,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+going to hubli,going to hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-going,going->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+kushitravels,kushitravels,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+near me cab service,near me cab service,5,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+ola cab booking,ola cab booking,17,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola available in hubli,ola available in hubli,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ertiga booking price per km,ertiga booking price per km,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-ertiga,,MISSING PAGE -> /vehicles/ertiga-hubli/,build-organic-page
+outstation traveller booking,outstation traveller booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+my location to hubli,my location to hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-location,location->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+ola car book,ola car book,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+car for travel,car for travel,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+car cab service near me,car cab service near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+goa to hubli taxi fare,goa to hubli taxi fare,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-goa,goa->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+hubballi railway station,hubli railway station,2,0,0.0,0.0,,0.0,0,0,0,transactional,service,railway,,MISSING PAGE -> /services/local-taxi-hubli/,build-organic-page
+car book,car book,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+bharat taxi service,bharat taxi service,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to goa car rental,hubli to goa car rental,6,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,build-organic-page
+tt tempo traveller,tt tempo traveller,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+vrl travels near basavanna circle ghantikeri new hubli hubballi karnataka,vrl travels near basavanna circle ghantikeri new hubli hubli karnataka,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi from hubli to bangalore,taxi from hubli to bangalore,3,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,build-organic-page
+p and p travels dharwad,p and p travels dharwad,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+daily cab service for office,daily cab service for office,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,corporate,,MISSING PAGE -> /services/corporate-cab-hubli/,build-organic-page
+innova rental per km,innova rental per km,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+hubli to dandeli taxi price,hubli to dandeli taxi price,4,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-dandeli,hubli->dandeli,MISSING PAGE -> /routes/hubli-to-dandeli-taxi/,build-organic-page
+bangalore to hubli cab,bangalore to hubli cab,2,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-bangalore,bangalore->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+cab service near me,cab service near me,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+private transport near me,private transport near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+gen automobiles hubli,gen automobiles hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+taxi service in dandeli,taxi service in dandeli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car tour and travels,car tour and travels,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,tour-package,,MISSING PAGE -> /services/outstation-cabs-hubli/,build-organic-page
+hubli hire,hubli hire,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+car for hire near me,car for hire near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+traveler rent,traveler rent,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+nearby taxi,nearby taxi,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+ride booking app,ride booking app,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+seabird travels hubli,seabird travels hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+book outstation cabs,book outstation cab,3,0,0.0,0.0,,0.0,0,0,0,transactional,service,outstation,,MISSING PAGE -> /services/outstation-cabs-hubli/,build-organic-page
+is namma yatri available in hubli,is namma yatri available in hubli,5,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi hire near me,taxi hire near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+red taxi near me,red taxi near me,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+cab book,cab book,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+sri ganesh travels hubli,sri ganesh travels hubli,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rohini tours and travels hubli,rohini tours and travels hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+rapido bike taxi hubli dharwad,rapido bike taxi hubli dharwad,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tempo traveller hubli,tempo traveller hubli,20,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+swaraj cabs and services,swaraj cab and service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car rent per km,car rent per km,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+taxi stand near me,taxi stand near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car services near me,car service near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,auto-repair,,NONE,negative-keyword
+tourist places in hubli,tourist places in hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+car showrooms in hubli,car showrooms in hubli,1,0,0.0,0.0,,0.0,0,0,0,job-seeker,none,job-irrelevant,,NONE,negative-keyword
+tourist places hubli,tourist places hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+auto booking app in hubli,auto booking app in hubli,7,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli to bangalore taxi,hubli to bangalore taxi,6,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,build-organic-page
+book rapido car,book rapido car,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+is there uber in hubli,is there uber in hubli,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+savaari cabs,savaari cab,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+near by travels,near by travels,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,travels-generic,,/ (homepage),ignore
+hubli dharwad taxi service,hubli dharwad taxi service,80,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+book tempo traveller,book tempo traveller,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+tourist vehicle near me,tourist vehicle near me,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+virat cabs in hubli,virat cab in hubli,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+innova car rent near me,innova car rent near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+cars for rent,car for rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+innova car for rent,innova car for rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+cab from hubli to gokarna,cab from hubli to gokarna,3,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,build-organic-page
+balaji cab hubli taxi service cabs service in hubli,balaji cab hubli taxi service cab service in hubli,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+travels near me within 400m,travels near me within 400m,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+seven seater car for rent,seven seater car for rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+2nd hand car in hubli,2nd hand car in hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+rapido available in hubli,rapido available in hubli,11,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rent car for a day with driver,rent car for a day with driver,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+amma cabs hubli,amma cab hubli,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+traveler car booking,traveler car booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+ola auto rental,ola auto rental,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rapido booking,rapido booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+in hubli rapido available,in hubli rapido available,12,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+nearby taxi stand near me,nearby taxi stand near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+book taxi online,book taxi online,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car rental in hubli self drive,car rental in hubli self drive,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+ola auto booking,ola auto booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+mahesh cabs huballi,mahesh cab huballi,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli to bangalore cab service,hubli to bangalore cab service,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,build-organic-page
+near me travels,near me travels,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+thar rental near me,thar rental near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+tavera car booking,tavera car booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-suv-(generic),,MISSING PAGE -> /vehicles/suv-(generic)-hubli/,build-organic-page
+kochi airport uber,kochi airport uber,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+car for booking near me,car for booking near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hurryup cabs,hurryup cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli rent a car,hubli rent a car,4,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+savaari taxi service,savaari taxi service,4,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+namma yatri hubli,namma yatri hubli,9,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi pro,taxi pro,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+traveller per day rent,traveller per day rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+dharwad cab service,dharwad cab service,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+cab booking near me,cab booking near me,4,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+online rapido,online rapido,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to hampi cab,hubli to hampi cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-hampi,hubli->hampi,MISSING PAGE -> /routes/hubli-to-hampi-taxi/,build-organic-page
+ertiga booking,ertiga booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-ertiga,,MISSING PAGE -> /vehicles/ertiga-hubli/,build-organic-page
+cab near me | cabs near me,cab near me,15,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+yellow cabs,yellow cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+udupi to murudeshwar taxi fare,udupi to murudeshwar taxi fare,2,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,udupi->murudeshwar,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+hubli near falls,hubli near falls,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli cab service hubballi,hubli cab service hubli,8,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+online taxi booking near me,online taxi booking near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+ola patna,ola patna,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tempo traveller 12 seater price in hubli,tempo traveller 12 seater price in hubli,2,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+suman cabs hubli,suman cab hubli,11,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+cab for rent near me | cabs for rent near me,cab for rent near me,4,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+dharwad car rental,dharwad car rental,6,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car for hire,car for hire,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+tours and travels in hubli,tours and travels in hubli,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli near tourist places,hubli near tourist places,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+bila bila taxi,bila bila taxi,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+bal bala car,bal bala car,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+oneway drop taxi,oneway drop taxi,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli lake,hubli lake,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+sanjana travels hubli,sanjana travels hubli,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+laxmi cab's hubli,laxmi cab s hubli,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+travels dharwad,travels dharwad,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+indrive cab,indrive cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+airport taxi service,airport taxi service,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+bharat taxi booking,bharat taxi booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola cab in hubli,ola cab in hubli,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+cab book near me,cab book near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli self drive cars,hubli self drive car,4,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+zoom car airport drop,zoom car airport drop,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ertiga car travel,ertiga car travel,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-ertiga,,MISSING PAGE -> /vehicles/ertiga-hubli/,build-organic-page
+travel agency in hubli,travel agency in hubli,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+saicabs hubli,saicabs hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+bangalore to hubli car,bangalore to hubli car,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-bangalore,bangalore->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+booking car near me,booking car near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+online auto booking,online auto booking,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hubli airport to belgaum taxi fare,hubli airport to belgaum taxi fare,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,airport->belgaum,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+hubli to bangalore car,hubli to bangalore car,2,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,build-organic-page
+drivers for hire,drivers for hire,3,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+om travels dharwad,om travels dharwad,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+innova crysta per km rent,innova crysta per km rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova-crysta,,MISSING PAGE -> /vehicles/innova-crysta-hubli/,build-organic-page
+visiting places in hubli,visiting places in hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+cab from bangalore to hubli,cab from bangalore to hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-bangalore,bangalore->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+ganesh tours and travels hubli,ganesh tours and travels hubli,7,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+taxi service near by near me,taxi service near by near me,4,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli to goa distance by cab,hubli to goa distance by cab,2,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,build-organic-page
+hubli travel agencies,hubli travel agencies,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+go taxi,go taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli cbt location,hubli cbt location,2,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+tempo traveller rent in dharwad,tempo traveller rent in dharwad,2,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+www taxi safar com,www taxi safar com,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car booking online near me,car booking online near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+rental car near me near me,rental car near me near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+taxi call number,taxi call number,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli to hampi taxi,hubli to hampi taxi,2,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-hampi,hubli->hampi,MISSING PAGE -> /routes/hubli-to-hampi-taxi/,build-organic-page
+sagar travels best taxi service and car rental in hubli,sagar travels best taxi service and car rental in hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+online taxi booking,online taxi booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+book ola cab,book ola cab,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rapido number,rapido number,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+nearby places to visit in hubli,nearby places to visit in hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-places,places->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+hubli to gokarna taxi,hubli to gokarna taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,build-organic-page
+urbania car 10 seater rent,urbania car 10 seater rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-force-urbania,,MISSING PAGE -> /vehicles/force-urbania-hubli/,build-organic-page
+rental cars in dandeli,rental car in dandeli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+rapido car,rapido car,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rapido online booking,rapido online booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi service near me | taxi services near me,taxi service near me,11,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+uber cab booking,uber cab booking,7,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rental cars in dharwad,rental car in dharwad,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rent per km in hubli,car rent per km in hubli,18,0,0.0,0.0,,0.0,0,0,0,transactional,price,core-local,,/ (homepage),scale-paid
+near travels,near travels,2,0,0.0,0.0,,0.0,0,0,0,transactional,service,travels-generic,,/ (homepage),ignore
+one day car rental in chennai with driver,one day car rental in chennai with driver,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,local-package,,MISSING PAGE -> /services/local-taxi-hubli/,build-organic-page
+rohin travels hubli,rohin travels hubli,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+ola book app,ola book app,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+travels car price,travels car price,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,travels-generic,,/ (homepage),ignore
+self drive fortuner on rent,self drive fortuner on rent,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+ertiga car hire,ertiga car hire,2,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-ertiga,,MISSING PAGE -> /vehicles/ertiga-hubli/,build-organic-page
+ola cab price for 50 km,ola cab price for 50 km,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+cab car booking,cab car booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+transport in hubli,transport in hubli,3,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+shimla to manali cab fare,shimla to manali cab fare,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,shimla->manali,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+uber available in hubli,uber available in hubli,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+uber taxi,uber taxi,7,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+airport cab service,airport cab service,3,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+second hand car in hubli | second hand cars in hubli,second hand car in hubli,2,0,0.0,0.0,,0.0,0,0,0,job-seeker,none,job-irrelevant,,NONE,negative-keyword
+car rent dharwad,car rent dharwad,6,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+rapido auto booking,rapido auto booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+how to book uber outstation cab,how to book uber outstation cab,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,how->book,NONE (paid-only decision),negative-keyword
+local taxi service,local taxi service,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,local-package,,MISSING PAGE -> /services/local-taxi-hubli/,build-organic-page
+namma yatri,namma yatri,3,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli dharwad cabs best cab service in hubli best taxi service in hubli,hubli dharwad cab best cab service in hubli best taxi service in hubli,19,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car agency rental,car agency rental,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+online ola,online ola,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tour and travels near me,tour and travels near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+car rent near me,car rent near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+innova booking near me,innova booking near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+cab | cabs,cab,16,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+ola auto app,ola auto app,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+cheap drivers near me,cheap drivers near me,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+private cabs near me,private cab near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+bangalore cab service,bangalore cab service,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,geo,wrong-geo,,NONE,negative-keyword
+taxi service for outstation,taxi service for outstation,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,outstation,,MISSING PAGE -> /services/outstation-cabs-hubli/,build-organic-page
+car for rent near me,car for rent near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+near taxi,near taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli automobiles,hubli automobiles,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli auto booking,hubli auto booking,5,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+true value hubli cars,true value hubli car,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+hubli self rental cars,hubli self rental car,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+tempo for hire near me,tempo for hire near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+fastrack cab booking,fastrack cab booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+vinayak cars hubli,vinayak car hubli,2,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+rent a car,rent a car,5,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli things to do,hubli things to do,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,things->do,/ (homepage),ignore
+online ola cab booking,online ola cab booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+my drive car rental,my drive car rental,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+cng car booking,cng car booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli to,hubli to,3,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+taxi service dharwad,taxi service dharwad,5,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+ertiga rental per km,ertiga rental per km,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-ertiga,,MISSING PAGE -> /vehicles/ertiga-hubli/,build-organic-page
+rent taxi near me,rent taxi near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+viramgam to shankheshwar taxi fare,viramgam to shankheshwar taxi fare,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,viramgam->shankheshwar,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+nearby places to hubli,nearby places to hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-places,places->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+rent car near me,rent car near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+sai cabs hubli,sai cab hubli,5,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+car rental from hubli to bangalore,car rental from hubli to bangalore,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,build-organic-page
+online cab service,online cab service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car rental for taxi drivers,car rental for taxi drivers,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+maya car taxi,maya car taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+emergency taxi service near me,emergency taxi service near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car rent price per day,car rent price per day,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,local-package,,MISSING PAGE -> /services/local-taxi-hubli/,build-organic-page
+dharwad rental car,dharwad rental car,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+rapido taxi,rapido taxi,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+drivers in hubli,drivers in hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+rapido office hubli,rapido office hubli,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+bangalore to hubli car rental price,bangalore to hubli car rental price,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-into-hubli-bangalore,bangalore->hubli,MISSING PAGE -> route page (reverse direction),build-organic-page
+tt travels near me,tt travels near me,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+dharwad taxi service,dharwad taxi service,6,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+cab rental near me,cab rental near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+how to book airport taxi,how to book airport taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,how->airport,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+places near hubli to visit,places near hubli to visit,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-visit,hubli->visit,MISSING PAGE -> /routes/hubli-to-visit-taxi/,build-organic-page
+mettupalayam taxi,mettupalayam taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+yatri sathi,yatri sathi,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+travel cab booking,travel cab booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car booking with driver,car booking with driver,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+ola car booking app,ola car booking app,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rent car in dharwad,rent car in dharwad,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car hubli,car hubli,5,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+raahiz travels hubli,raahiz travels hubli,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rapido book online bike,rapido book online bike,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola cab price,ola cab price,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rohin tours and travels hubli,rohin tours and travels hubli,18,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+car booking near me,car booking near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+ऑनलाइन टैक्सी बुकिंग,ऑनल इन ट क स ब क ग,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+best travels near me,best travels near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+ola auto booking online,ola auto booking online,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola cabs auto booking,ola cab auto booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hospet cab service,hospet cab service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car bazar rental,car bazar rental,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+sunrise cabs hubli 🚘 hubballi,sunrise cab hubli hubli,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+book rapido cab,book rapido cab,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ओला कैब बुकिंग,ओल क ब ब क ग,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+famous place in hubli,famous place in hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+ola car booking,ola car booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+sagar divine cabs best car rental & taxi service hubballi,sagar divine cab best car rental taxi service hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+near car rental,near car rental,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+rapido booking online,rapido booking online,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola booking app,ola booking app,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+travel car,travel car,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+car rent per km price,car rent per km price,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+bla bla car booking,bla bla car booking,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+tempo traveller booking price,tempo traveller booking price,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+innova on rent near me,innova on rent near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+tempo traveller,tempo traveller,8,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+taxi 7 seater,taxi 7 seater,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+local taxi service near me,local taxi service near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,service,local-package,,MISSING PAGE -> /services/local-taxi-hubli/,build-organic-page
+cab price,cab price,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+balaji cab hubli,balaji cab hubli,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi company,taxi company,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+taxi service in belgaum,taxi service in belgaum,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,geo,wrong-geo,,NONE,negative-keyword
+self car rental near me,self car rental near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+red taxi coimbatore,red taxi coimbatore,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+dharwad to goa by car,dharwad to goa by car,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,dharwad->goa,/ (homepage),ignore
+transport near me,transport near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+rent car,rent car,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car rent with driver near me,car rent with driver near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+cabs from hubli to bangalore,cab from hubli to bangalore,3,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,build-organic-page
+car on rent per day,car on rent per day,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,local-package,,MISSING PAGE -> /services/local-taxi-hubli/,build-organic-page
+isha cab hubli,isha cab hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+mansi cab,mansi cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+cab service in dharwad,cab service in dharwad,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+top rated taxi service near me | top rated taxi services near me,top rated taxi service near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,price,core-local,,/ (homepage),scale-paid
+ola app download,ola app download,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+car rent price,car rent price,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+online taxi booking surat,online taxi booking surat,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car cab,car cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli to gokarna cab service,hubli to gokarna cab service,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,build-organic-page
+rental cabs near me,rental cab near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+book my taxi,book my taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+visiting places in hubli city,visiting places in hubli city,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+car book near me,car book near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+book cab online,book cab online,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+durgamba travels hubli,durgamba travels hubli,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+hubli dharwad tourist places,hubli dharwad tourist places,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+taxi car booking,taxi car booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+scorpio car rental price,scorpio car rental price,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-suv-(generic),,MISSING PAGE -> /vehicles/suv-(generic)-hubli/,build-organic-page
+cab wala,cab wala,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car hire near me,car hire near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+toofan car travels,toofan car travels,2,0,0.0,0.0,,0.0,0,0,0,transactional,service,travels-generic,,/ (homepage),ignore
+24 taxi service near me,24 taxi service near me,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+car driver for hire,car driver for hire,2,0,0.0,0.0,,0.0,0,0,0,transactional,service,driver-hire,,NONE (service unclear - ask Sayed),ignore
+car rent booking,car rent booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+near taxi service,near taxi service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+travel agency hubli,travel agency hubli,8,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+akash cabs hubli best car rental company in hubli,akash cab hubli best car rental company in hubli,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+2 days car rental,2 days car rental,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+car for rent in dharwad,car for rent in dharwad,4,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+rental cars dharwad,rental car dharwad,4,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+taxi stand near me now,taxi stand near me now,1,0,0.0,0.0,,0.0,0,0,0,transactional,time,core-local,,/ (homepage),scale-paid
+call taxi,call taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+eeco booking car rental,eeco booking car rental,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-eeco,,MISSING PAGE -> /vehicles/eeco-hubli/,build-organic-page
+car rental,car rental,14,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+ola near me,ola near me,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+innova car rent per day,innova car rent per day,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+car rent in dharwad,car rent in dharwad,9,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+best cab service in bangalore,best cab service in bangalore,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,geo,wrong-geo,,NONE,negative-keyword
+balabala taxi,balabala taxi,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+best taxi near me,best taxi near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubballi place to visit,hubli place to visit,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,place->visit,/ (homepage),ignore
+hubli cabs services best hubli taxi service outstation taxi & cab service in hubli airport,hubli cab service best hubli taxi service outstation taxi cab service in hubli airport,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+ganesh travels hubli cars,ganesh travels hubli car,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli to hampi taxi fare,hubli to hampi taxi fare,3,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-hampi,hubli->hampi,MISSING PAGE -> /routes/hubli-to-hampi-taxi/,build-organic-page
+sedan car rental price,sedan car rental price,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-sedan-(dzire-etios),,MISSING PAGE -> /vehicles/sedan-(dzire-etios)-hubli/,build-organic-page
+car travel booking,car travel booking,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hubli to gokarna taxi fare,hubli to gokarna taxi fare,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-gokarna,hubli->gokarna,MISSING PAGE -> /routes/hubli-to-gokarna-taxi/,build-organic-page
+auto cab,auto cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+rapido in hubli dharwad,rapido in hubli dharwad,6,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+raahiz travels hubli car rental with driver,raahiz travels hubli car rental with driver,5,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+ola uber in hubli,ola uber in hubli,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+babla babla car booking,babla babla car booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli cab service hubballi reviews,hubli cab service hubli reviews,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+arya go cab booking,arya go cab booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+taxi safar com,taxi safar com,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+pp travels dharwad,pp travels dharwad,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+sarkar cab service,sarkar cab service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+swift for rent,swift for rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-sedan-(dzire-etios),,MISSING PAGE -> /vehicles/sedan-(dzire-etios)-hubli/,build-organic-page
+cabs in hubli dharwad,cab in hubli dharwad,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+ola taxi booking,ola taxi booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+travel in hubli,travel in hubli,2,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+car tours and travels near me,car tours and travels near me,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+bala car booking,bala car booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+go go taxi service,go go taxi service,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli to bangalore shared cab,hubli to bangalore shared cab,3,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-bangalore,hubli->bangalore,MISSING PAGE -> /routes/hubli-to-bangalore-taxi/,build-organic-page
+rapido book ride,rapido book ride,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+bala bla cab,bala bla cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli travel agency,hubli travel agency,6,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+travel car booking near me,travel car booking near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli tourist places,hubli tourist places,2,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+ola booking,ola booking,24,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+car on rent near me with driver,car on rent near me with driver,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+hubli near best places,hubli near best places,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+car cab booking,car cab booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+manish travels hubli,manish travels hubli,3,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+taxi booking,taxi booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+travel agency in dharwad,travel agency in dharwad,4,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+taxi drivers near me,taxi drivers near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+swift dzire rental price per day,swift dzire rental price per day,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-sedan-(dzire-etios),,MISSING PAGE -> /vehicles/sedan-(dzire-etios)-hubli/,build-organic-page
+hubli to goa taxi fare,hubli to goa taxi fare,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-goa,hubli->goa,MISSING PAGE -> /routes/hubli-to-goa-taxi/,build-organic-page
+ola car,ola car,5,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+innova travel rate per km,innova travel rate per km,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+car taxi booking,car taxi booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+travel in dharwad,travel in dharwad,4,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+gadi booking,gadi booking,4,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hubli tour's and travels,hubli tour s and travels,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+online cab,online cab,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+force urbania per km price,force urbania per km price,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-force-urbania,,MISSING PAGE -> /vehicles/force-urbania-hubli/,build-organic-page
+ola cab service,ola cab service,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+rapido,rapido,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+tour and travels hubli,tour and travels hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+ola app,ola app,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+drivers for hire near me,drivers for hire near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+online taxi,online taxi,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+bharat taxi price list,bharat taxi price list,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+savaari,savaari,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi fare in,taxi fare in,1,0,0.0,0.0,,0.0,0,0,0,informational,price,price-generic,,MISSING PAGE -> /fare/hubli-taxi-fare/,ignore
+hubli tours and travels,hubli tours and travels,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+rent a car nizamabad,rent a car nizamabad,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+cap book app,cap book app,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+ola cab book,ola cab book,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+self drive cars near me,self drive car near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+near railway station hubli,near railway station hubli,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,railway,,MISSING PAGE -> /services/local-taxi-hubli/,build-organic-page
+car travels in dharwad,car travels in dharwad,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+queen travels hubli,queen travels hubli,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,travels-local,,/ (homepage),scale-paid
+mg showroom hubli,mg showroom hubli,4,0,0.0,0.0,,0.0,0,0,0,job-seeker,none,job-irrelevant,,NONE,negative-keyword
+vehicle rent near me,vehicle rent near me,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+ola car rental,ola car rental,3,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+drivers for hire in hubli,drivers for hire in hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+car taxi near me,car taxi near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+mahindra thar rental near me,mahindra thar rental near me,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+tt booking near me,tt booking near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hubli cabs services best cab service in hubli best taxi service in hubli dharwad,hubli cab service best cab service in hubli best taxi service in hubli dharwad,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-local,,/ (homepage),scale-paid
+ola uber,ola uber,9,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+airport taxi,airport taxi,4,0,0.0,0.0,,0.0,0,0,0,transactional,service,airport,,MISSING PAGE -> /services/airport-taxi-hubli/,build-organic-page
+12 seat traveller rent,12 seat traveller rent,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-tempo-traveller,,MISSING PAGE -> /vehicles/tempo-traveller-hubli/,build-organic-page
+rent vehicle near me,rent vehicle near me,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+hubli nearest tourist places,hubli nearest tourist places,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+maya call taxi phone number,maya call taxi phone number,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+टैक्सी बुकिंग,ट क स ब क ग,6,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+zoom car in dharwad,zoom car in dharwad,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+self driving cars in hubli,self driving car in hubli,4,0,0.0,0.0,,0.0,0,0,0,irrelevant,service,self-drive,,NONE (service not offered),negative-keyword
+car automobiles hubli,car automobiles hubli,1,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,,/ (homepage),ignore
+force urbania rental,force urbania rental,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-force-urbania,,MISSING PAGE -> /vehicles/force-urbania-hubli/,build-organic-page
+tirupati to kanipakam,tirupati to kanipakam,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,tirupati->kanipakam,NONE,negative-keyword
+hubli places to visit,hubli places to visit,2,0,0.0,0.0,,0.0,0,0,0,informational,geo,misc-local,places->visit,/ (homepage),ignore
+ओला कैब बुकिंग ऑनलाइन,ओल क ब ब क ग ऑनल इन,2,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+ola uber booking,ola uber booking,2,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+taxi app,taxi app,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+taxi service in tatanagar,taxi service in tatanagar,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+hubli to ulavi,hubli to ulavi,1,0,0.0,0.0,,0.0,0,0,0,transactional,geo,route-ulavi,hubli->ulavi,MISSING PAGE -> /routes/hubli-to-ulavi-taxi/,build-organic-page
+ola cab booking price,ola cab booking price,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+vehicle rental near me,vehicle rental near me,3,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+travel car booking,travel car booking,1,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+nearby cab service,nearby cab service,2,0,0.0,0.0,,0.0,0,0,0,transactional,none,core-generic,,/ (homepage),ignore
+rapido cab booking,rapido cab booking,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+hubli ganesh travels,hubli ganesh travels,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+innova rental,innova rental,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
+winger for rent,winger for rent,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+rapido book online,rapido book online,1,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+local car rentals near me,local car rental near me,1,0,0.0,0.0,,0.0,0,0,0,transactional,service,local-package,,MISSING PAGE -> /services/local-taxi-hubli/,build-organic-page
+ola cab,ola cab,11,0,0.0,0.0,,0.0,0,0,0,navigational,brand,competitor,,NONE (paid-only decision),negative-keyword
+bhada gadi app,bhada gadi app,1,0,0.0,0.0,,0.0,0,0,0,irrelevant,none,misc-irrelevant,,NONE,negative-keyword
+rental innova car,rental innova car,1,0,0.0,0.0,,0.0,0,0,0,transactional,vehicle,vehicle-innova,,MISSING PAGE -> /vehicles/innova-hubli/,build-organic-page
